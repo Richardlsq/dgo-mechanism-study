@@ -1,0 +1,49 @@
+{
+  "identity": "J2-OC",
+  "dimension": 10,
+  "population": 40,
+  "budget": 10000,
+  "instance_seeds": [
+    920101,
+    920102,
+    920103
+  ],
+  "search_seeds": [
+    840101,
+    840102
+  ],
+  "checkpoints": [
+    2000,
+    5000,
+    8000
+  ],
+  "replicates": 8,
+  "carriers": {
+    "NQ": {
+      "index": 0,
+      "third_mode": "none"
+    },
+    "JQ": {
+      "index": 1,
+      "third_mode": "interpolate"
+    }
+  },
+  "groups": {
+    "quadratic": [
+      "sphere",
+      "ellip_axis_1e6",
+      "ellip_rot_1e6",
+      "ellip_rot_1e2"
+    ],
+    "curved": [
+      "rosen_axis",
+      "rosen_rot"
+    ],
+    "multimodal": [
+      "ackley",
+      "rastrigin_rot"
+    ]
+  },
+  "total_eval_cap": 1723000,
+  "command_seconds_cap": 300
+}

@@ -1,0 +1,522 @@
+{
+  "identity": "J1-QS",
+  "budget": 10000,
+  "population": 40,
+  "dimension": 10,
+  "parameters": {
+    "NP": {
+      "allocation": "probability",
+      "mode": "none",
+      "fraction": 1.0
+    },
+    "NQ": {
+      "allocation": "quota",
+      "mode": "none",
+      "fraction": 1.0
+    },
+    "JP": {
+      "allocation": "probability",
+      "mode": "interpolate",
+      "fraction": 1.0
+    },
+    "JQ25": {
+      "allocation": "quota",
+      "mode": "interpolate",
+      "fraction": 0.25
+    },
+    "JQ50": {
+      "allocation": "quota",
+      "mode": "interpolate",
+      "fraction": 0.5
+    },
+    "JQ100": {
+      "allocation": "quota",
+      "mode": "interpolate",
+      "fraction": 1.0
+    },
+    "RQ25": {
+      "allocation": "quota",
+      "mode": "random",
+      "fraction": 0.25
+    },
+    "RQ50": {
+      "allocation": "quota",
+      "mode": "random",
+      "fraction": 0.5
+    },
+    "RQ100": {
+      "allocation": "quota",
+      "mode": "random",
+      "fraction": 1.0
+    }
+  },
+  "stages": {
+    "train": [
+      [
+        880101,
+        880102
+      ],
+      [
+        800101,
+        800102
+      ]
+    ],
+    "holdout": [
+      [
+        880201,
+        880202,
+        880203
+      ],
+      [
+        800201,
+        800202,
+        800203
+      ]
+    ]
+  },
+  "instances": [
+    {
+      "stage": "train",
+      "profile": {
+        "id": "rosen_axis",
+        "family": "rosenbrock",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "instance_seed": 880101
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "instance_seed": 880101
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "ellip_axis_1e6",
+        "family": "ellipsoid",
+        "rotated": false,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880101
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880101
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880101
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "sphere",
+        "family": "sphere",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880101
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "ackley",
+        "family": "ackley",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "instance_seed": 880101
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "instance_seed": 880101
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "rosen_axis",
+        "family": "rosenbrock",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "instance_seed": 880102
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "instance_seed": 880102
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "ellip_axis_1e6",
+        "family": "ellipsoid",
+        "rotated": false,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880102
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880102
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880102
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "sphere",
+        "family": "sphere",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880102
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "ackley",
+        "family": "ackley",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "instance_seed": 880102
+    },
+    {
+      "stage": "train",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "instance_seed": 880102
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "rosen_axis",
+        "family": "rosenbrock",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "instance_seed": 880201
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "instance_seed": 880201
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ellip_axis_1e6",
+        "family": "ellipsoid",
+        "rotated": false,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880201
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880201
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880201
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "sphere",
+        "family": "sphere",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880201
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ackley",
+        "family": "ackley",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "instance_seed": 880201
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "instance_seed": 880201
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "rosen_axis",
+        "family": "rosenbrock",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "instance_seed": 880202
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "instance_seed": 880202
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ellip_axis_1e6",
+        "family": "ellipsoid",
+        "rotated": false,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880202
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880202
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880202
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "sphere",
+        "family": "sphere",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880202
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ackley",
+        "family": "ackley",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "instance_seed": 880202
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "instance_seed": 880202
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "rosen_axis",
+        "family": "rosenbrock",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "instance_seed": 880203
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "instance_seed": 880203
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ellip_axis_1e6",
+        "family": "ellipsoid",
+        "rotated": false,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880203
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880203
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880203
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "sphere",
+        "family": "sphere",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "quadratic"
+      },
+      "instance_seed": 880203
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "ackley",
+        "family": "ackley",
+        "rotated": false,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "instance_seed": 880203
+    },
+    {
+      "stage": "holdout",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "instance_seed": 880203
+    }
+  ],
+  "max_train_runs": 192,
+  "max_holdout_runs": 360,
+  "total_eval_cap": 5531144
+}

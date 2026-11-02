@@ -1,0 +1,112 @@
+[
+  {
+    "dimension": 10,
+    "reference": "DE5D",
+    "ratio": 0.3666867325825462,
+    "common_FE_min": 10000,
+    "common_FE_max": 10000,
+    "pairs": 144,
+    "wins": 130,
+    "ties": 0,
+    "losses": 14
+  },
+  {
+    "dimension": 10,
+    "reference": "PSO",
+    "ratio": 0.2463557252791176,
+    "common_FE_min": 10000,
+    "common_FE_max": 10000,
+    "pairs": 144,
+    "wins": 95,
+    "ties": 0,
+    "losses": 49
+  },
+  {
+    "dimension": 10,
+    "reference": "Random",
+    "ratio": 0.0014888090361655484,
+    "common_FE_min": 10000,
+    "common_FE_max": 10000,
+    "pairs": 144,
+    "wins": 144,
+    "ties": 0,
+    "losses": 0
+  },
+  {
+    "dimension": 10,
+    "reference": "L",
+    "ratio": 1.653108511731321,
+    "common_FE_min": 10000,
+    "common_FE_max": 10000,
+    "pairs": 144,
+    "wins": 53,
+    "ties": 2,
+    "losses": 89
+  },
+  {
+    "dimension": 10,
+    "reference": "C",
+    "ratio": 5.893337602751009,
+    "common_FE_min": 860,
+    "common_FE_max": 10000,
+    "pairs": 144,
+    "wins": 20,
+    "ties": 0,
+    "losses": 124
+  },
+  {
+    "dimension": 20,
+    "reference": "DE5D",
+    "ratio": 0.1348814324088221,
+    "common_FE_min": 20000,
+    "common_FE_max": 20000,
+    "pairs": 144,
+    "wins": 136,
+    "ties": 0,
+    "losses": 8
+  },
+  {
+    "dimension": 20,
+    "reference": "PSO",
+    "ratio": 0.5876920484312447,
+    "common_FE_min": 20000,
+    "common_FE_max": 20000,
+    "pairs": 144,
+    "wins": 91,
+    "ties": 2,
+    "losses": 51
+  },
+  {
+    "dimension": 20,
+    "reference": "Random",
+    "ratio": 0.00187565974800493,
+    "common_FE_min": 20000,
+    "common_FE_max": 20000,
+    "pairs": 144,
+    "wins": 144,
+    "ties": 0,
+    "losses": 0
+  },
+  {
+    "dimension": 20,
+    "reference": "L",
+    "ratio": 1.8973764930774617,
+    "common_FE_min": 20000,
+    "common_FE_max": 20000,
+    "pairs": 144,
+    "wins": 63,
+    "ties": 0,
+    "losses": 81
+  },
+  {
+    "dimension": 20,
+    "reference": "C",
+    "ratio": 10.64771187249196,
+    "common_FE_min": 2640,
+    "common_FE_max": 20000,
+    "pairs": 144,
+    "wins": 16,
+    "ties": 0,
+    "losses": 128
+  }
+]

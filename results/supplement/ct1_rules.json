@@ -1,0 +1,92 @@
+[
+  {
+    "group": "quadratic",
+    "states": 64,
+    "parent_accepted": 57,
+    "strict_accepted": 57,
+    "endpoint_accepted": 14,
+    "metrics": {
+      "parent_rule": {
+        "mean": -0.04022757836017768,
+        "ci95": [
+          -0.17565457323569894,
+          0.09061251685995754
+        ]
+      },
+      "strict_interpolation_gate": {
+        "mean": -0.04022757836017768,
+        "ci95": [
+          -0.17565457323569894,
+          0.09061251685995754
+        ]
+      },
+      "strict_minus_parent": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  {
+    "group": "controls",
+    "states": 64,
+    "parent_accepted": 43,
+    "strict_accepted": 43,
+    "endpoint_accepted": 20,
+    "metrics": {
+      "parent_rule": {
+        "mean": 0.0036709064185917774,
+        "ci95": [
+          -0.006778583194577926,
+          0.014702942698051932
+        ]
+      },
+      "strict_interpolation_gate": {
+        "mean": 0.0036709064185917774,
+        "ci95": [
+          -0.006778583194577926,
+          0.014702942698051932
+        ]
+      },
+      "strict_minus_parent": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  {
+    "group": "all",
+    "states": 128,
+    "parent_accepted": 100,
+    "strict_accepted": 100,
+    "endpoint_accepted": 34,
+    "metrics": {
+      "parent_rule": {
+        "mean": -0.018278335970792953,
+        "ci95": [
+          -0.08579656080154419,
+          0.0468814681708051
+        ]
+      },
+      "strict_interpolation_gate": {
+        "mean": -0.018278335970792953,
+        "ci95": [
+          -0.08579656080154419,
+          0.0468814681708051
+        ]
+      },
+      "strict_minus_parent": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+]

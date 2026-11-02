@@ -1,0 +1,813 @@
+{
+  "identity": "M3-CV",
+  "algorithm": "synchronous-DE/rand/1/bin-plus-one-diagnostic-probe",
+  "population_size": 40,
+  "F": 0.5,
+  "CR": 0.9,
+  "probe_fraction": 0.3,
+  "probe_targets": 20,
+  "probe_radius_factor": 0.1,
+  "cases": [
+    {
+      "id": "d10_ellip_rot_1e2_i1",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21000101,
+      "seed": 22000101,
+      "probe_seed": 24000101,
+      "local_seed": 25000101,
+      "future_seeds": [
+        23000101,
+        23000102,
+        23000103,
+        23000104
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_i1.npz",
+      "target": 0.0001
+    },
+    {
+      "id": "d10_ellip_rot_1e2_i2",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21000102,
+      "seed": 22000102,
+      "probe_seed": 24000102,
+      "local_seed": 25000102,
+      "future_seeds": [
+        23000111,
+        23000112,
+        23000113,
+        23000114
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_i2.npz",
+      "target": 0.0001
+    },
+    {
+      "id": "d10_ellip_rot_1e2_i3",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21000103,
+      "seed": 22000103,
+      "probe_seed": 24000103,
+      "local_seed": 25000103,
+      "future_seeds": [
+        23000121,
+        23000122,
+        23000123,
+        23000124
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_i3.npz",
+      "target": 0.0001
+    },
+    {
+      "id": "d10_ellip_rot_1e2_i4",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21000104,
+      "seed": 22000104,
+      "probe_seed": 24000104,
+      "local_seed": 25000104,
+      "future_seeds": [
+        23000131,
+        23000132,
+        23000133,
+        23000134
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_i4.npz",
+      "target": 0.0001
+    },
+    {
+      "id": "d10_ellip_rot_1e6_i1",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21001101,
+      "seed": 22000105,
+      "probe_seed": 24000105,
+      "local_seed": 25000105,
+      "future_seeds": [
+        23000141,
+        23000142,
+        23000143,
+        23000144
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_i1.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d10_ellip_rot_1e6_i2",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21001102,
+      "seed": 22000106,
+      "probe_seed": 24000106,
+      "local_seed": 25000106,
+      "future_seeds": [
+        23000151,
+        23000152,
+        23000153,
+        23000154
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_i2.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d10_ellip_rot_1e6_i3",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21001103,
+      "seed": 22000107,
+      "probe_seed": 24000107,
+      "local_seed": 25000107,
+      "future_seeds": [
+        23000161,
+        23000162,
+        23000163,
+        23000164
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_i3.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d10_ellip_rot_1e6_i4",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21001104,
+      "seed": 22000108,
+      "probe_seed": 24000108,
+      "local_seed": 25000108,
+      "future_seeds": [
+        23000171,
+        23000172,
+        23000173,
+        23000174
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_i4.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d10_rosen_rot_i1",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21002101,
+      "seed": 22000109,
+      "probe_seed": 24000109,
+      "local_seed": 25000109,
+      "future_seeds": [
+        23000181,
+        23000182,
+        23000183,
+        23000184
+      ],
+      "input_file": "inputs/d10_rosen_rot_i1.npz",
+      "target": 0.001
+    },
+    {
+      "id": "d10_rosen_rot_i2",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21002102,
+      "seed": 22000110,
+      "probe_seed": 24000110,
+      "local_seed": 25000110,
+      "future_seeds": [
+        23000191,
+        23000192,
+        23000193,
+        23000194
+      ],
+      "input_file": "inputs/d10_rosen_rot_i2.npz",
+      "target": 0.001
+    },
+    {
+      "id": "d10_rosen_rot_i3",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21002103,
+      "seed": 22000111,
+      "probe_seed": 24000111,
+      "local_seed": 25000111,
+      "future_seeds": [
+        23000201,
+        23000202,
+        23000203,
+        23000204
+      ],
+      "input_file": "inputs/d10_rosen_rot_i3.npz",
+      "target": 0.001
+    },
+    {
+      "id": "d10_rosen_rot_i4",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21002104,
+      "seed": 22000112,
+      "probe_seed": 24000112,
+      "local_seed": 25000112,
+      "future_seeds": [
+        23000211,
+        23000212,
+        23000213,
+        23000214
+      ],
+      "input_file": "inputs/d10_rosen_rot_i4.npz",
+      "target": 0.001
+    },
+    {
+      "id": "d10_rastrigin_rot_i1",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21003101,
+      "seed": 22000113,
+      "probe_seed": 24000113,
+      "local_seed": 25000113,
+      "future_seeds": [
+        23000221,
+        23000222,
+        23000223,
+        23000224
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_i1.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d10_rastrigin_rot_i2",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21003102,
+      "seed": 22000114,
+      "probe_seed": 24000114,
+      "local_seed": 25000114,
+      "future_seeds": [
+        23000231,
+        23000232,
+        23000233,
+        23000234
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_i2.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d10_rastrigin_rot_i3",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21003103,
+      "seed": 22000115,
+      "probe_seed": 24000115,
+      "local_seed": 25000115,
+      "future_seeds": [
+        23000241,
+        23000242,
+        23000243,
+        23000244
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_i3.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d10_rastrigin_rot_i4",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 10000,
+      "instance_seed": 21003104,
+      "seed": 22000116,
+      "probe_seed": 24000116,
+      "local_seed": 25000116,
+      "future_seeds": [
+        23000251,
+        23000252,
+        23000253,
+        23000254
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_i4.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d20_ellip_rot_1e2_i1",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21010101,
+      "seed": 22000117,
+      "probe_seed": 24000117,
+      "local_seed": 25000117,
+      "future_seeds": [
+        23000261,
+        23000262,
+        23000263,
+        23000264
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_i1.npz",
+      "target": 0.0001
+    },
+    {
+      "id": "d20_ellip_rot_1e2_i2",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21010102,
+      "seed": 22000118,
+      "probe_seed": 24000118,
+      "local_seed": 25000118,
+      "future_seeds": [
+        23000271,
+        23000272,
+        23000273,
+        23000274
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_i2.npz",
+      "target": 0.0001
+    },
+    {
+      "id": "d20_ellip_rot_1e2_i3",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21010103,
+      "seed": 22000119,
+      "probe_seed": 24000119,
+      "local_seed": 25000119,
+      "future_seeds": [
+        23000281,
+        23000282,
+        23000283,
+        23000284
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_i3.npz",
+      "target": 0.0001
+    },
+    {
+      "id": "d20_ellip_rot_1e2_i4",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21010104,
+      "seed": 22000120,
+      "probe_seed": 24000120,
+      "local_seed": 25000120,
+      "future_seeds": [
+        23000291,
+        23000292,
+        23000293,
+        23000294
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_i4.npz",
+      "target": 0.0001
+    },
+    {
+      "id": "d20_ellip_rot_1e6_i1",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21011101,
+      "seed": 22000121,
+      "probe_seed": 24000121,
+      "local_seed": 25000121,
+      "future_seeds": [
+        23000301,
+        23000302,
+        23000303,
+        23000304
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_i1.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d20_ellip_rot_1e6_i2",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21011102,
+      "seed": 22000122,
+      "probe_seed": 24000122,
+      "local_seed": 25000122,
+      "future_seeds": [
+        23000311,
+        23000312,
+        23000313,
+        23000314
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_i2.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d20_ellip_rot_1e6_i3",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21011103,
+      "seed": 22000123,
+      "probe_seed": 24000123,
+      "local_seed": 25000123,
+      "future_seeds": [
+        23000321,
+        23000322,
+        23000323,
+        23000324
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_i3.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d20_ellip_rot_1e6_i4",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21011104,
+      "seed": 22000124,
+      "probe_seed": 24000124,
+      "local_seed": 25000124,
+      "future_seeds": [
+        23000331,
+        23000332,
+        23000333,
+        23000334
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_i4.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d20_rosen_rot_i1",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21012101,
+      "seed": 22000125,
+      "probe_seed": 24000125,
+      "local_seed": 25000125,
+      "future_seeds": [
+        23000341,
+        23000342,
+        23000343,
+        23000344
+      ],
+      "input_file": "inputs/d20_rosen_rot_i1.npz",
+      "target": 0.001
+    },
+    {
+      "id": "d20_rosen_rot_i2",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21012102,
+      "seed": 22000126,
+      "probe_seed": 24000126,
+      "local_seed": 25000126,
+      "future_seeds": [
+        23000351,
+        23000352,
+        23000353,
+        23000354
+      ],
+      "input_file": "inputs/d20_rosen_rot_i2.npz",
+      "target": 0.001
+    },
+    {
+      "id": "d20_rosen_rot_i3",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21012103,
+      "seed": 22000127,
+      "probe_seed": 24000127,
+      "local_seed": 25000127,
+      "future_seeds": [
+        23000361,
+        23000362,
+        23000363,
+        23000364
+      ],
+      "input_file": "inputs/d20_rosen_rot_i3.npz",
+      "target": 0.001
+    },
+    {
+      "id": "d20_rosen_rot_i4",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21012104,
+      "seed": 22000128,
+      "probe_seed": 24000128,
+      "local_seed": 25000128,
+      "future_seeds": [
+        23000371,
+        23000372,
+        23000373,
+        23000374
+      ],
+      "input_file": "inputs/d20_rosen_rot_i4.npz",
+      "target": 0.001
+    },
+    {
+      "id": "d20_rastrigin_rot_i1",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21013101,
+      "seed": 22000129,
+      "probe_seed": 24000129,
+      "local_seed": 25000129,
+      "future_seeds": [
+        23000381,
+        23000382,
+        23000383,
+        23000384
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_i1.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d20_rastrigin_rot_i2",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21013102,
+      "seed": 22000130,
+      "probe_seed": 24000130,
+      "local_seed": 25000130,
+      "future_seeds": [
+        23000391,
+        23000392,
+        23000393,
+        23000394
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_i2.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d20_rastrigin_rot_i3",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21013103,
+      "seed": 22000131,
+      "probe_seed": 24000131,
+      "local_seed": 25000131,
+      "future_seeds": [
+        23000401,
+        23000402,
+        23000403,
+        23000404
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_i3.npz",
+      "target": 0.01
+    },
+    {
+      "id": "d20_rastrigin_rot_i4",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 20000,
+      "instance_seed": 21013104,
+      "seed": 22000132,
+      "probe_seed": 24000132,
+      "local_seed": 25000132,
+      "future_seeds": [
+        23000411,
+        23000412,
+        23000413,
+        23000414
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_i4.npz",
+      "target": 0.01
+    }
+  ],
+  "primary_profiles": [
+    "ellip_rot_1e2",
+    "ellip_rot_1e6"
+  ],
+  "controls": [
+    "rosen_rot",
+    "rastrigin_rot"
+  ],
+  "formal_cap": 4000000,
+  "full_cap": 8100000,
+  "future_replicates": 4,
+  "local_replicates": 16,
+  "floor": 1e-12,
+  "local_material": 0.01,
+  "harmful_ratio": 0.9,
+  "beneficial_ratio": 1.1,
+  "bootstrap_seed": 2026102907,
+  "bootstrap_replicates": 2000,
+  "min_eligible_per_primary_stratum": 3,
+  "max_formal_seconds": 7200,
+  "max_case_seconds": 600,
+  "max_solve_seconds": 120,
+  "upstream_migration_gate": {
+    "proceed": true,
+    "distinct_instance_count": 2,
+    "cases": [
+      "d10_ellip_rot_1e2_i5",
+      "d10_rosen_rot_i1"
+    ],
+    "rule": "At least two distinct new instances: L>=.01, mean(log DROP/KEEP)<=log(.9), KEEP worse in >=3/4 future pairs.",
+    "interpretation": "Research-stage gate only; not a global effect confirmation or online policy qualification."
+  },
+  "formal_bound": 3984512
+}

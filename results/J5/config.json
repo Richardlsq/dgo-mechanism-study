@@ -1,0 +1,64 @@
+{
+  "identity": "J5-PATH",
+  "cases": [
+    {
+      "id": "tail",
+      "instance_seed": 880201,
+      "seed": 800201,
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "old_ids": {
+        "NQ": "ellip_rot_1e6_880201_800201_NQ",
+        "JQ100": "ellip_rot_1e6_880201_800201_JQ100"
+      }
+    },
+    {
+      "id": "reference",
+      "instance_seed": 880201,
+      "seed": 800203,
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "old_ids": {
+        "NQ": "ellip_rot_1e6_880201_800203_NQ",
+        "JQ100": "ellip_rot_1e6_880201_800203_JQ100"
+      }
+    }
+  ],
+  "budget": 10000,
+  "population": 40,
+  "dimension": 10,
+  "cut_round": 2,
+  "cut_nfev": 121,
+  "formal_cap": 79516,
+  "independent_cap": 79516,
+  "total_cap": 170000,
+  "reserve": 968,
+  "expected_slots": {
+    "tail": 25,
+    "reference": 21
+  },
+  "rho_improve": 0.9,
+  "rho_worsen": 1.1,
+  "nq_near": 1.25,
+  "epsilon": 1e-12,
+  "clocks": [
+    500,
+    1000,
+    2000,
+    4000,
+    6000,
+    8000,
+    10000
+  ],
+  "default_changed": false
+}

@@ -1,0 +1,57 @@
+{
+  "identity": "S1-SAVED-20261029",
+  "bootstrap_seed": 2026102901,
+  "bootstrap_replicates": 2000,
+  "floors": [
+    1e-15,
+    1e-12,
+    1e-09
+  ],
+  "target_multipliers": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "quantiles": [
+    0,
+    0.05,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    0.95,
+    1
+  ],
+  "fractions": [
+    0.0,
+    0.05,
+    0.1,
+    0.15000000000000002,
+    0.2,
+    0.25,
+    0.30000000000000004,
+    0.35000000000000003,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6000000000000001,
+    0.65,
+    0.7000000000000001,
+    0.75,
+    0.8,
+    0.8500000000000001,
+    0.9,
+    0.9500000000000001,
+    1.0
+  ],
+  "source_identity": {
+    "JQC1": "jq100_classic_jqc1_20261029",
+    "JQX1": "jq100_external_jqx1_20261029",
+    "J6": "commit_value_j6_20261029",
+    "M3": "commit_migration_m3_20261029"
+  },
+  "objective_calls": 0,
+  "status": "POSTHOC_DESCRIPTIVE",
+  "baseline_commit_from_parent": "[omitted]"
+}

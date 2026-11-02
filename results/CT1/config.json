@@ -1,0 +1,2702 @@
+{
+  "identity": "CT1",
+  "formal_cases": [
+    {
+      "id": "d10_ellip_rot_1e2_01",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000000,
+      "seed": 23100000,
+      "candidate_seed": 23100001,
+      "future_seeds": [
+        23100002,
+        23100003
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_01.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_02",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000001,
+      "seed": 23100050,
+      "candidate_seed": 23100051,
+      "future_seeds": [
+        23100052,
+        23100053
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_02.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_03",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000002,
+      "seed": 23100100,
+      "candidate_seed": 23100101,
+      "future_seeds": [
+        23100102,
+        23100103
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_03.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_04",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000003,
+      "seed": 23100150,
+      "candidate_seed": 23100151,
+      "future_seeds": [
+        23100152,
+        23100153
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_04.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_05",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000004,
+      "seed": 23100200,
+      "candidate_seed": 23100201,
+      "future_seeds": [
+        23100202,
+        23100203
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_05.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_06",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000005,
+      "seed": 23100250,
+      "candidate_seed": 23100251,
+      "future_seeds": [
+        23100252,
+        23100253
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_06.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_07",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000006,
+      "seed": 23100300,
+      "candidate_seed": 23100301,
+      "future_seeds": [
+        23100302,
+        23100303
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_07.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_08",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000007,
+      "seed": 23100350,
+      "candidate_seed": 23100351,
+      "future_seeds": [
+        23100352,
+        23100353
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_08.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_09",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000008,
+      "seed": 23100400,
+      "candidate_seed": 23100401,
+      "future_seeds": [
+        23100402,
+        23100403
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_09.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_10",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000009,
+      "seed": 23100450,
+      "candidate_seed": 23100451,
+      "future_seeds": [
+        23100452,
+        23100453
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_10.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_11",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000010,
+      "seed": 23100500,
+      "candidate_seed": 23100501,
+      "future_seeds": [
+        23100502,
+        23100503
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_11.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_12",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000011,
+      "seed": 23100550,
+      "candidate_seed": 23100551,
+      "future_seeds": [
+        23100552,
+        23100553
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_12.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_13",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000012,
+      "seed": 23100600,
+      "candidate_seed": 23100601,
+      "future_seeds": [
+        23100602,
+        23100603
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_13.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_14",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000013,
+      "seed": 23100650,
+      "candidate_seed": 23100651,
+      "future_seeds": [
+        23100652,
+        23100653
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_14.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_15",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000014,
+      "seed": 23100700,
+      "candidate_seed": 23100701,
+      "future_seeds": [
+        23100702,
+        23100703
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_15.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e2_16",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000015,
+      "seed": 23100750,
+      "candidate_seed": 23100751,
+      "future_seeds": [
+        23100752,
+        23100753
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e2_16.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_01",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000016,
+      "seed": 23100800,
+      "candidate_seed": 23100801,
+      "future_seeds": [
+        23100802,
+        23100803
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_01.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_02",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000017,
+      "seed": 23100850,
+      "candidate_seed": 23100851,
+      "future_seeds": [
+        23100852,
+        23100853
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_02.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_03",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000018,
+      "seed": 23100900,
+      "candidate_seed": 23100901,
+      "future_seeds": [
+        23100902,
+        23100903
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_03.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_04",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000019,
+      "seed": 23100950,
+      "candidate_seed": 23100951,
+      "future_seeds": [
+        23100952,
+        23100953
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_04.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_05",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000020,
+      "seed": 23101000,
+      "candidate_seed": 23101001,
+      "future_seeds": [
+        23101002,
+        23101003
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_05.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_06",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000021,
+      "seed": 23101050,
+      "candidate_seed": 23101051,
+      "future_seeds": [
+        23101052,
+        23101053
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_06.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_07",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000022,
+      "seed": 23101100,
+      "candidate_seed": 23101101,
+      "future_seeds": [
+        23101102,
+        23101103
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_07.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_08",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000023,
+      "seed": 23101150,
+      "candidate_seed": 23101151,
+      "future_seeds": [
+        23101152,
+        23101153
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_08.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_09",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000024,
+      "seed": 23101200,
+      "candidate_seed": 23101201,
+      "future_seeds": [
+        23101202,
+        23101203
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_09.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_10",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000025,
+      "seed": 23101250,
+      "candidate_seed": 23101251,
+      "future_seeds": [
+        23101252,
+        23101253
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_10.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_11",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000026,
+      "seed": 23101300,
+      "candidate_seed": 23101301,
+      "future_seeds": [
+        23101302,
+        23101303
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_11.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_12",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000027,
+      "seed": 23101350,
+      "candidate_seed": 23101351,
+      "future_seeds": [
+        23101352,
+        23101353
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_12.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_13",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000028,
+      "seed": 23101400,
+      "candidate_seed": 23101401,
+      "future_seeds": [
+        23101402,
+        23101403
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_13.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_14",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000029,
+      "seed": 23101450,
+      "candidate_seed": 23101451,
+      "future_seeds": [
+        23101452,
+        23101453
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_14.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_15",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000030,
+      "seed": 23101500,
+      "candidate_seed": 23101501,
+      "future_seeds": [
+        23101502,
+        23101503
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_15.npz"
+    },
+    {
+      "id": "d10_ellip_rot_1e6_16",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000031,
+      "seed": 23101550,
+      "candidate_seed": 23101551,
+      "future_seeds": [
+        23101552,
+        23101553
+      ],
+      "input_file": "inputs/d10_ellip_rot_1e6_16.npz"
+    },
+    {
+      "id": "d10_rosen_rot_01",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000032,
+      "seed": 23101600,
+      "candidate_seed": 23101601,
+      "future_seeds": [
+        23101602,
+        23101603
+      ],
+      "input_file": "inputs/d10_rosen_rot_01.npz"
+    },
+    {
+      "id": "d10_rosen_rot_02",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000033,
+      "seed": 23101650,
+      "candidate_seed": 23101651,
+      "future_seeds": [
+        23101652,
+        23101653
+      ],
+      "input_file": "inputs/d10_rosen_rot_02.npz"
+    },
+    {
+      "id": "d10_rosen_rot_03",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000034,
+      "seed": 23101700,
+      "candidate_seed": 23101701,
+      "future_seeds": [
+        23101702,
+        23101703
+      ],
+      "input_file": "inputs/d10_rosen_rot_03.npz"
+    },
+    {
+      "id": "d10_rosen_rot_04",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000035,
+      "seed": 23101750,
+      "candidate_seed": 23101751,
+      "future_seeds": [
+        23101752,
+        23101753
+      ],
+      "input_file": "inputs/d10_rosen_rot_04.npz"
+    },
+    {
+      "id": "d10_rosen_rot_05",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000036,
+      "seed": 23101800,
+      "candidate_seed": 23101801,
+      "future_seeds": [
+        23101802,
+        23101803
+      ],
+      "input_file": "inputs/d10_rosen_rot_05.npz"
+    },
+    {
+      "id": "d10_rosen_rot_06",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000037,
+      "seed": 23101850,
+      "candidate_seed": 23101851,
+      "future_seeds": [
+        23101852,
+        23101853
+      ],
+      "input_file": "inputs/d10_rosen_rot_06.npz"
+    },
+    {
+      "id": "d10_rosen_rot_07",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000038,
+      "seed": 23101900,
+      "candidate_seed": 23101901,
+      "future_seeds": [
+        23101902,
+        23101903
+      ],
+      "input_file": "inputs/d10_rosen_rot_07.npz"
+    },
+    {
+      "id": "d10_rosen_rot_08",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000039,
+      "seed": 23101950,
+      "candidate_seed": 23101951,
+      "future_seeds": [
+        23101952,
+        23101953
+      ],
+      "input_file": "inputs/d10_rosen_rot_08.npz"
+    },
+    {
+      "id": "d10_rosen_rot_09",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000040,
+      "seed": 23102000,
+      "candidate_seed": 23102001,
+      "future_seeds": [
+        23102002,
+        23102003
+      ],
+      "input_file": "inputs/d10_rosen_rot_09.npz"
+    },
+    {
+      "id": "d10_rosen_rot_10",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000041,
+      "seed": 23102050,
+      "candidate_seed": 23102051,
+      "future_seeds": [
+        23102052,
+        23102053
+      ],
+      "input_file": "inputs/d10_rosen_rot_10.npz"
+    },
+    {
+      "id": "d10_rosen_rot_11",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000042,
+      "seed": 23102100,
+      "candidate_seed": 23102101,
+      "future_seeds": [
+        23102102,
+        23102103
+      ],
+      "input_file": "inputs/d10_rosen_rot_11.npz"
+    },
+    {
+      "id": "d10_rosen_rot_12",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000043,
+      "seed": 23102150,
+      "candidate_seed": 23102151,
+      "future_seeds": [
+        23102152,
+        23102153
+      ],
+      "input_file": "inputs/d10_rosen_rot_12.npz"
+    },
+    {
+      "id": "d10_rosen_rot_13",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000044,
+      "seed": 23102200,
+      "candidate_seed": 23102201,
+      "future_seeds": [
+        23102202,
+        23102203
+      ],
+      "input_file": "inputs/d10_rosen_rot_13.npz"
+    },
+    {
+      "id": "d10_rosen_rot_14",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000045,
+      "seed": 23102250,
+      "candidate_seed": 23102251,
+      "future_seeds": [
+        23102252,
+        23102253
+      ],
+      "input_file": "inputs/d10_rosen_rot_14.npz"
+    },
+    {
+      "id": "d10_rosen_rot_15",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000046,
+      "seed": 23102300,
+      "candidate_seed": 23102301,
+      "future_seeds": [
+        23102302,
+        23102303
+      ],
+      "input_file": "inputs/d10_rosen_rot_15.npz"
+    },
+    {
+      "id": "d10_rosen_rot_16",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000047,
+      "seed": 23102350,
+      "candidate_seed": 23102351,
+      "future_seeds": [
+        23102352,
+        23102353
+      ],
+      "input_file": "inputs/d10_rosen_rot_16.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_01",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000048,
+      "seed": 23102400,
+      "candidate_seed": 23102401,
+      "future_seeds": [
+        23102402,
+        23102403
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_01.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_02",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000049,
+      "seed": 23102450,
+      "candidate_seed": 23102451,
+      "future_seeds": [
+        23102452,
+        23102453
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_02.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_03",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000050,
+      "seed": 23102500,
+      "candidate_seed": 23102501,
+      "future_seeds": [
+        23102502,
+        23102503
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_03.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_04",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000051,
+      "seed": 23102550,
+      "candidate_seed": 23102551,
+      "future_seeds": [
+        23102552,
+        23102553
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_04.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_05",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000052,
+      "seed": 23102600,
+      "candidate_seed": 23102601,
+      "future_seeds": [
+        23102602,
+        23102603
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_05.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_06",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000053,
+      "seed": 23102650,
+      "candidate_seed": 23102651,
+      "future_seeds": [
+        23102652,
+        23102653
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_06.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_07",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000054,
+      "seed": 23102700,
+      "candidate_seed": 23102701,
+      "future_seeds": [
+        23102702,
+        23102703
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_07.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_08",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000055,
+      "seed": 23102750,
+      "candidate_seed": 23102751,
+      "future_seeds": [
+        23102752,
+        23102753
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_08.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_09",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000056,
+      "seed": 23102800,
+      "candidate_seed": 23102801,
+      "future_seeds": [
+        23102802,
+        23102803
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_09.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_10",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000057,
+      "seed": 23102850,
+      "candidate_seed": 23102851,
+      "future_seeds": [
+        23102852,
+        23102853
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_10.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_11",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000058,
+      "seed": 23102900,
+      "candidate_seed": 23102901,
+      "future_seeds": [
+        23102902,
+        23102903
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_11.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_12",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000059,
+      "seed": 23102950,
+      "candidate_seed": 23102951,
+      "future_seeds": [
+        23102952,
+        23102953
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_12.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_13",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000060,
+      "seed": 23103000,
+      "candidate_seed": 23103001,
+      "future_seeds": [
+        23103002,
+        23103003
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_13.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_14",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000061,
+      "seed": 23103050,
+      "candidate_seed": 23103051,
+      "future_seeds": [
+        23103052,
+        23103053
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_14.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_15",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000062,
+      "seed": 23103100,
+      "candidate_seed": 23103101,
+      "future_seeds": [
+        23103102,
+        23103103
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_15.npz"
+    },
+    {
+      "id": "d10_rastrigin_rot_16",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 10,
+      "budget": 5000,
+      "carrier_fe": 1480,
+      "instance_seed": 23000063,
+      "seed": 23103150,
+      "candidate_seed": 23103151,
+      "future_seeds": [
+        23103152,
+        23103153
+      ],
+      "input_file": "inputs/d10_rastrigin_rot_16.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_01",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000064,
+      "seed": 23103200,
+      "candidate_seed": 23103201,
+      "future_seeds": [
+        23103202,
+        23103203
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_01.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_02",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000065,
+      "seed": 23103250,
+      "candidate_seed": 23103251,
+      "future_seeds": [
+        23103252,
+        23103253
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_02.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_03",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000066,
+      "seed": 23103300,
+      "candidate_seed": 23103301,
+      "future_seeds": [
+        23103302,
+        23103303
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_03.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_04",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000067,
+      "seed": 23103350,
+      "candidate_seed": 23103351,
+      "future_seeds": [
+        23103352,
+        23103353
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_04.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_05",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000068,
+      "seed": 23103400,
+      "candidate_seed": 23103401,
+      "future_seeds": [
+        23103402,
+        23103403
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_05.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_06",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000069,
+      "seed": 23103450,
+      "candidate_seed": 23103451,
+      "future_seeds": [
+        23103452,
+        23103453
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_06.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_07",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000070,
+      "seed": 23103500,
+      "candidate_seed": 23103501,
+      "future_seeds": [
+        23103502,
+        23103503
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_07.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_08",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000071,
+      "seed": 23103550,
+      "candidate_seed": 23103551,
+      "future_seeds": [
+        23103552,
+        23103553
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_08.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_09",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000072,
+      "seed": 23103600,
+      "candidate_seed": 23103601,
+      "future_seeds": [
+        23103602,
+        23103603
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_09.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_10",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000073,
+      "seed": 23103650,
+      "candidate_seed": 23103651,
+      "future_seeds": [
+        23103652,
+        23103653
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_10.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_11",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000074,
+      "seed": 23103700,
+      "candidate_seed": 23103701,
+      "future_seeds": [
+        23103702,
+        23103703
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_11.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_12",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000075,
+      "seed": 23103750,
+      "candidate_seed": 23103751,
+      "future_seeds": [
+        23103752,
+        23103753
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_12.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_13",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000076,
+      "seed": 23103800,
+      "candidate_seed": 23103801,
+      "future_seeds": [
+        23103802,
+        23103803
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_13.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_14",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000077,
+      "seed": 23103850,
+      "candidate_seed": 23103851,
+      "future_seeds": [
+        23103852,
+        23103853
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_14.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_15",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000078,
+      "seed": 23103900,
+      "candidate_seed": 23103901,
+      "future_seeds": [
+        23103902,
+        23103903
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_15.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e2_16",
+      "profile": {
+        "id": "ellip_rot_1e2",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 100.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000079,
+      "seed": 23103950,
+      "candidate_seed": 23103951,
+      "future_seeds": [
+        23103952,
+        23103953
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e2_16.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_01",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000080,
+      "seed": 23104000,
+      "candidate_seed": 23104001,
+      "future_seeds": [
+        23104002,
+        23104003
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_01.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_02",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000081,
+      "seed": 23104050,
+      "candidate_seed": 23104051,
+      "future_seeds": [
+        23104052,
+        23104053
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_02.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_03",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000082,
+      "seed": 23104100,
+      "candidate_seed": 23104101,
+      "future_seeds": [
+        23104102,
+        23104103
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_03.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_04",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000083,
+      "seed": 23104150,
+      "candidate_seed": 23104151,
+      "future_seeds": [
+        23104152,
+        23104153
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_04.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_05",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000084,
+      "seed": 23104200,
+      "candidate_seed": 23104201,
+      "future_seeds": [
+        23104202,
+        23104203
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_05.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_06",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000085,
+      "seed": 23104250,
+      "candidate_seed": 23104251,
+      "future_seeds": [
+        23104252,
+        23104253
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_06.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_07",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000086,
+      "seed": 23104300,
+      "candidate_seed": 23104301,
+      "future_seeds": [
+        23104302,
+        23104303
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_07.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_08",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000087,
+      "seed": 23104350,
+      "candidate_seed": 23104351,
+      "future_seeds": [
+        23104352,
+        23104353
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_08.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_09",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000088,
+      "seed": 23104400,
+      "candidate_seed": 23104401,
+      "future_seeds": [
+        23104402,
+        23104403
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_09.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_10",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000089,
+      "seed": 23104450,
+      "candidate_seed": 23104451,
+      "future_seeds": [
+        23104452,
+        23104453
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_10.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_11",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000090,
+      "seed": 23104500,
+      "candidate_seed": 23104501,
+      "future_seeds": [
+        23104502,
+        23104503
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_11.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_12",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000091,
+      "seed": 23104550,
+      "candidate_seed": 23104551,
+      "future_seeds": [
+        23104552,
+        23104553
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_12.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_13",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000092,
+      "seed": 23104600,
+      "candidate_seed": 23104601,
+      "future_seeds": [
+        23104602,
+        23104603
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_13.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_14",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000093,
+      "seed": 23104650,
+      "candidate_seed": 23104651,
+      "future_seeds": [
+        23104652,
+        23104653
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_14.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_15",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000094,
+      "seed": 23104700,
+      "candidate_seed": 23104701,
+      "future_seeds": [
+        23104702,
+        23104703
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_15.npz"
+    },
+    {
+      "id": "d20_ellip_rot_1e6_16",
+      "profile": {
+        "id": "ellip_rot_1e6",
+        "family": "ellipsoid",
+        "rotated": true,
+        "condition": 1000000.0,
+        "group": "quadratic"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000095,
+      "seed": 23104750,
+      "candidate_seed": 23104751,
+      "future_seeds": [
+        23104752,
+        23104753
+      ],
+      "input_file": "inputs/d20_ellip_rot_1e6_16.npz"
+    },
+    {
+      "id": "d20_rosen_rot_01",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000096,
+      "seed": 23104800,
+      "candidate_seed": 23104801,
+      "future_seeds": [
+        23104802,
+        23104803
+      ],
+      "input_file": "inputs/d20_rosen_rot_01.npz"
+    },
+    {
+      "id": "d20_rosen_rot_02",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000097,
+      "seed": 23104850,
+      "candidate_seed": 23104851,
+      "future_seeds": [
+        23104852,
+        23104853
+      ],
+      "input_file": "inputs/d20_rosen_rot_02.npz"
+    },
+    {
+      "id": "d20_rosen_rot_03",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000098,
+      "seed": 23104900,
+      "candidate_seed": 23104901,
+      "future_seeds": [
+        23104902,
+        23104903
+      ],
+      "input_file": "inputs/d20_rosen_rot_03.npz"
+    },
+    {
+      "id": "d20_rosen_rot_04",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000099,
+      "seed": 23104950,
+      "candidate_seed": 23104951,
+      "future_seeds": [
+        23104952,
+        23104953
+      ],
+      "input_file": "inputs/d20_rosen_rot_04.npz"
+    },
+    {
+      "id": "d20_rosen_rot_05",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000100,
+      "seed": 23105000,
+      "candidate_seed": 23105001,
+      "future_seeds": [
+        23105002,
+        23105003
+      ],
+      "input_file": "inputs/d20_rosen_rot_05.npz"
+    },
+    {
+      "id": "d20_rosen_rot_06",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000101,
+      "seed": 23105050,
+      "candidate_seed": 23105051,
+      "future_seeds": [
+        23105052,
+        23105053
+      ],
+      "input_file": "inputs/d20_rosen_rot_06.npz"
+    },
+    {
+      "id": "d20_rosen_rot_07",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000102,
+      "seed": 23105100,
+      "candidate_seed": 23105101,
+      "future_seeds": [
+        23105102,
+        23105103
+      ],
+      "input_file": "inputs/d20_rosen_rot_07.npz"
+    },
+    {
+      "id": "d20_rosen_rot_08",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000103,
+      "seed": 23105150,
+      "candidate_seed": 23105151,
+      "future_seeds": [
+        23105152,
+        23105153
+      ],
+      "input_file": "inputs/d20_rosen_rot_08.npz"
+    },
+    {
+      "id": "d20_rosen_rot_09",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000104,
+      "seed": 23105200,
+      "candidate_seed": 23105201,
+      "future_seeds": [
+        23105202,
+        23105203
+      ],
+      "input_file": "inputs/d20_rosen_rot_09.npz"
+    },
+    {
+      "id": "d20_rosen_rot_10",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000105,
+      "seed": 23105250,
+      "candidate_seed": 23105251,
+      "future_seeds": [
+        23105252,
+        23105253
+      ],
+      "input_file": "inputs/d20_rosen_rot_10.npz"
+    },
+    {
+      "id": "d20_rosen_rot_11",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000106,
+      "seed": 23105300,
+      "candidate_seed": 23105301,
+      "future_seeds": [
+        23105302,
+        23105303
+      ],
+      "input_file": "inputs/d20_rosen_rot_11.npz"
+    },
+    {
+      "id": "d20_rosen_rot_12",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000107,
+      "seed": 23105350,
+      "candidate_seed": 23105351,
+      "future_seeds": [
+        23105352,
+        23105353
+      ],
+      "input_file": "inputs/d20_rosen_rot_12.npz"
+    },
+    {
+      "id": "d20_rosen_rot_13",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000108,
+      "seed": 23105400,
+      "candidate_seed": 23105401,
+      "future_seeds": [
+        23105402,
+        23105403
+      ],
+      "input_file": "inputs/d20_rosen_rot_13.npz"
+    },
+    {
+      "id": "d20_rosen_rot_14",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000109,
+      "seed": 23105450,
+      "candidate_seed": 23105451,
+      "future_seeds": [
+        23105452,
+        23105453
+      ],
+      "input_file": "inputs/d20_rosen_rot_14.npz"
+    },
+    {
+      "id": "d20_rosen_rot_15",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000110,
+      "seed": 23105500,
+      "candidate_seed": 23105501,
+      "future_seeds": [
+        23105502,
+        23105503
+      ],
+      "input_file": "inputs/d20_rosen_rot_15.npz"
+    },
+    {
+      "id": "d20_rosen_rot_16",
+      "profile": {
+        "id": "rosen_rot",
+        "family": "rosenbrock",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "curved"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000111,
+      "seed": 23105550,
+      "candidate_seed": 23105551,
+      "future_seeds": [
+        23105552,
+        23105553
+      ],
+      "input_file": "inputs/d20_rosen_rot_16.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_01",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000112,
+      "seed": 23105600,
+      "candidate_seed": 23105601,
+      "future_seeds": [
+        23105602,
+        23105603
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_01.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_02",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000113,
+      "seed": 23105650,
+      "candidate_seed": 23105651,
+      "future_seeds": [
+        23105652,
+        23105653
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_02.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_03",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000114,
+      "seed": 23105700,
+      "candidate_seed": 23105701,
+      "future_seeds": [
+        23105702,
+        23105703
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_03.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_04",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000115,
+      "seed": 23105750,
+      "candidate_seed": 23105751,
+      "future_seeds": [
+        23105752,
+        23105753
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_04.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_05",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000116,
+      "seed": 23105800,
+      "candidate_seed": 23105801,
+      "future_seeds": [
+        23105802,
+        23105803
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_05.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_06",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000117,
+      "seed": 23105850,
+      "candidate_seed": 23105851,
+      "future_seeds": [
+        23105852,
+        23105853
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_06.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_07",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000118,
+      "seed": 23105900,
+      "candidate_seed": 23105901,
+      "future_seeds": [
+        23105902,
+        23105903
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_07.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_08",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000119,
+      "seed": 23105950,
+      "candidate_seed": 23105951,
+      "future_seeds": [
+        23105952,
+        23105953
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_08.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_09",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000120,
+      "seed": 23106000,
+      "candidate_seed": 23106001,
+      "future_seeds": [
+        23106002,
+        23106003
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_09.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_10",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000121,
+      "seed": 23106050,
+      "candidate_seed": 23106051,
+      "future_seeds": [
+        23106052,
+        23106053
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_10.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_11",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000122,
+      "seed": 23106100,
+      "candidate_seed": 23106101,
+      "future_seeds": [
+        23106102,
+        23106103
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_11.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_12",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000123,
+      "seed": 23106150,
+      "candidate_seed": 23106151,
+      "future_seeds": [
+        23106152,
+        23106153
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_12.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_13",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000124,
+      "seed": 23106200,
+      "candidate_seed": 23106201,
+      "future_seeds": [
+        23106202,
+        23106203
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_13.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_14",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000125,
+      "seed": 23106250,
+      "candidate_seed": 23106251,
+      "future_seeds": [
+        23106252,
+        23106253
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_14.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_15",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000126,
+      "seed": 23106300,
+      "candidate_seed": 23106301,
+      "future_seeds": [
+        23106302,
+        23106303
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_15.npz"
+    },
+    {
+      "id": "d20_rastrigin_rot_16",
+      "profile": {
+        "id": "rastrigin_rot",
+        "family": "rastrigin",
+        "rotated": true,
+        "condition": 1.0,
+        "group": "control"
+      },
+      "dimension": 20,
+      "budget": 10000,
+      "carrier_fe": 3000,
+      "instance_seed": 23000127,
+      "seed": 23106350,
+      "candidate_seed": 23106351,
+      "future_seeds": [
+        23106352,
+        23106353
+      ],
+      "input_file": "inputs/d20_rastrigin_rot_16.npz"
+    }
+  ],
+  "floor": 1e-12,
+  "formal_points": 13737728,
+  "full_cap": 32000000,
+  "bootstrap_seed": 23109999,
+  "bootstrap_replicates": 4000,
+  "formal_wallcap": 21600,
+  "verify_wallcap": 21600,
+  "case_wallcap": 1800,
+  "solve_wallcap": 120
+}

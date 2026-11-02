@@ -1,0 +1,220 @@
+{
+  "identity": "BX1",
+  "status": "CLOSED",
+  "scientific_status": "DESCRIPTIVE_COMPLETE_NO_PASS_GATE",
+  "formal_runs": 1728,
+  "official_problems": 144,
+  "starts_master": 288,
+  "initialization_scope": "L native uses same initial coordinates for identical dimension/search seed across functions; first-batch hashes disclosed",
+  "comparisons": [
+    {
+      "dimension": 10,
+      "reference": "DE5D",
+      "primary_geometric_ratio": 0.3666867325825462,
+      "bootstrap95": [
+        0.3059219779194329,
+        0.4349274667543859
+      ],
+      "functions": 24,
+      "instances_per_function": 3,
+      "seeds_per_instance": 2,
+      "paired_runs": 144,
+      "raw_wins": 130,
+      "raw_ties": 0,
+      "raw_losses": 14,
+      "worst_primary_pair": 180.30193897411664
+    },
+    {
+      "dimension": 10,
+      "reference": "PSO",
+      "primary_geometric_ratio": 0.24635572527911764,
+      "bootstrap95": [
+        0.20207278357066052,
+        0.29790329084086176
+      ],
+      "functions": 24,
+      "instances_per_function": 3,
+      "seeds_per_instance": 2,
+      "paired_runs": 144,
+      "raw_wins": 95,
+      "raw_ties": 0,
+      "raw_losses": 49,
+      "worst_primary_pair": 7.847059571083797
+    },
+    {
+      "dimension": 10,
+      "reference": "Random",
+      "primary_geometric_ratio": 0.0014888090361655497,
+      "bootstrap95": [
+        0.0012127844390105761,
+        0.0018138836028077844
+      ],
+      "functions": 24,
+      "instances_per_function": 3,
+      "seeds_per_instance": 2,
+      "paired_runs": 144,
+      "raw_wins": 144,
+      "raw_ties": 0,
+      "raw_losses": 0,
+      "worst_primary_pair": 0.6711248974400186
+    },
+    {
+      "dimension": 10,
+      "reference": "L",
+      "primary_geometric_ratio": 1.6531085117313207,
+      "bootstrap95": [
+        1.3564616529790074,
+        2.0411370011376295
+      ],
+      "functions": 24,
+      "instances_per_function": 3,
+      "seeds_per_instance": 2,
+      "paired_runs": 144,
+      "raw_wins": 53,
+      "raw_ties": 2,
+      "raw_losses": 89,
+      "worst_primary_pair": 191.34250480110495
+    },
+    {
+      "dimension": 10,
+      "reference": "C",
+      "primary_geometric_ratio": 1.6813712989873035,
+      "bootstrap95": [
+        1.2587187406805167,
+        2.2059324123986523
+      ],
+      "functions": 24,
+      "instances_per_function": 3,
+      "seeds_per_instance": 2,
+      "paired_runs": 144,
+      "raw_wins": 45,
+      "raw_ties": 1,
+      "raw_losses": 98,
+      "worst_primary_pair": 610.3841742922625
+    },
+    {
+      "dimension": 20,
+      "reference": "DE5D",
+      "primary_geometric_ratio": 0.13488143240882217,
+      "bootstrap95": [
+        0.11679299815799421,
+        0.16158905503514795
+      ],
+      "functions": 24,
+      "instances_per_function": 3,
+      "seeds_per_instance": 2,
+      "paired_runs": 144,
+      "raw_wins": 136,
+      "raw_ties": 0,
+      "raw_losses": 8,
+      "worst_primary_pair": 9.346862860416284
+    },
+    {
+      "dimension": 20,
+      "reference": "PSO",
+      "primary_geometric_ratio": 0.5876920484312448,
+      "bootstrap95": [
+        0.49743701224163095,
+        0.7097518257487673
+      ],
+      "functions": 24,
+      "instances_per_function": 3,
+      "seeds_per_instance": 2,
+      "paired_runs": 144,
+      "raw_wins": 91,
+      "raw_ties": 2,
+      "raw_losses": 51,
+      "worst_primary_pair": 316.98055953010424
+    },
+    {
+      "dimension": 20,
+      "reference": "Random",
+      "primary_geometric_ratio": 0.00187565974800493,
+      "bootstrap95": [
+        0.0016006580971345307,
+        0.0022793623614657155
+      ],
+      "functions": 24,
+      "instances_per_function": 3,
+      "seeds_per_instance": 2,
+      "paired_runs": 144,
+      "raw_wins": 144,
+      "raw_ties": 0,
+      "raw_losses": 0,
+      "worst_primary_pair": 0.5152069926507241
+    },
+    {
+      "dimension": 20,
+      "reference": "L",
+      "primary_geometric_ratio": 1.8973764930774617,
+      "bootstrap95": [
+        1.5649935831040565,
+        2.4302724561254876
+      ],
+      "functions": 24,
+      "instances_per_function": 3,
+      "seeds_per_instance": 2,
+      "paired_runs": 144,
+      "raw_wins": 63,
+      "raw_ties": 0,
+      "raw_losses": 81,
+      "worst_primary_pair": 34260.100071518165
+    },
+    {
+      "dimension": 20,
+      "reference": "C",
+      "primary_geometric_ratio": 4.706143459027649,
+      "bootstrap95": [
+        3.703644993149251,
+        6.063458209791376
+      ],
+      "functions": 24,
+      "instances_per_function": 3,
+      "seeds_per_instance": 2,
+      "paired_runs": 144,
+      "raw_wins": 30,
+      "raw_ties": 4,
+      "raw_losses": 110,
+      "worst_primary_pair": 387003.8746230281
+    }
+  ],
+  "cost": {
+    "engineering": 15087,
+    "formal": 24191274,
+    "verify": 6912,
+    "reserve": 44644,
+    "repeat": 157178
+  },
+  "total_points": 24415095,
+  "cap": 26200000,
+  "rounding_clamps": [],
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 23500999,
+    "unit": "fixed24 functions; instance then paired search seeds"
+  },
+  "early_stops": {
+    "JQ100": 0,
+    "DE5D": 0,
+    "PSO": 0,
+    "Random": 0,
+    "L": 0,
+    "C": 232
+  },
+  "timing": {
+    "analysis_seconds": 10.009019499993883,
+    "execution": 2332.050463500025,
+    "verification_including_repeats": 144.68945949999033,
+    "solver_sum_under_load": 2232.1340953003964,
+    "nested_times_not_added": true
+  },
+  "default_changed": false,
+  "further_experiments": false,
+  "evidence_repair_identity": "POSTFORMAL_BATCH0_REEVALUATED_INITIAL_VALUES",
+  "original_formal_endpoints_changed": false,
+  "formal_technical_failures": 0,
+  "postformal_verification_failures": 1,
+  "archive_repair_points": 44640,
+  "reserve_verification_redo_points": 4,
+  "prior_failed_verification_points": 4
+}

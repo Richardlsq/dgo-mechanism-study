@@ -1,0 +1,2446 @@
+{
+  "identity": "J5-PATH",
+  "status": "CLOSED",
+  "cases": [
+    {
+      "id": "tail",
+      "instance_seed": 880201,
+      "seed": 800201,
+      "fun": {
+        "NQ": 0.014819709839778603,
+        "JQ100": 3.310171365134519,
+        "keep": 3.310171365134519,
+        "drop": 0.5223534403297592
+      },
+      "rho": 0.1578025373044014,
+      "classification": "FIRST_COMMIT_HARMFUL_PATHWAY_OBSERVED",
+      "drop_over_NQ": 35.247211041435314,
+      "drop_near_or_better_than_NQ": false,
+      "keep_over_NQ": 223.36276490563247,
+      "old_JQ_over_NQ": 223.36276490563247,
+      "clocks": [
+        {
+          "clock": 500,
+          "arms": {
+            "NQ": {
+              "clock": 500,
+              "recorded_nfev": 480,
+              "best": 41229.988877133015,
+              "cost": {
+                "initial": 40,
+                "sweep": 200,
+                "probe": 240,
+                "pair_endpoints": 240,
+                "third": 0,
+                "total": 480
+              }
+            },
+            "JQ100": {
+              "clock": 500,
+              "recorded_nfev": 466,
+              "best": 23987.222361720327,
+              "cost": {
+                "initial": 40,
+                "sweep": 200,
+                "probe": 226,
+                "pair_endpoints": 200,
+                "third": 26,
+                "total": 466
+              }
+            },
+            "keep": {
+              "clock": 500,
+              "recorded_nfev": 466,
+              "best": 23987.222361720327,
+              "cost": {
+                "initial": 40,
+                "sweep": 200,
+                "probe": 226,
+                "pair_endpoints": 200,
+                "third": 26,
+                "total": 466
+              }
+            },
+            "drop": {
+              "clock": 500,
+              "recorded_nfev": 470,
+              "best": 42367.23449908552,
+              "cost": {
+                "initial": 40,
+                "sweep": 200,
+                "probe": 230,
+                "pair_endpoints": 200,
+                "third": 30,
+                "total": 470
+              }
+            }
+          },
+          "drop_over_keep": 1.7662417874066436,
+          "keep_over_NQ": 0.5817906580863553,
+          "drop_over_NQ": 1.0275829718349316
+        },
+        {
+          "clock": 1000,
+          "arms": {
+            "NQ": {
+              "clock": 1000,
+              "recorded_nfev": 1000,
+              "best": 7314.572833407325,
+              "cost": {
+                "initial": 40,
+                "sweep": 480,
+                "probe": 480,
+                "pair_endpoints": 480,
+                "third": 0,
+                "total": 1000
+              }
+            },
+            "JQ100": {
+              "clock": 1000,
+              "recorded_nfev": 995,
+              "best": 15370.416731876721,
+              "cost": {
+                "initial": 40,
+                "sweep": 480,
+                "probe": 475,
+                "pair_endpoints": 400,
+                "third": 75,
+                "total": 995
+              }
+            },
+            "keep": {
+              "clock": 1000,
+              "recorded_nfev": 995,
+              "best": 15370.416731876721,
+              "cost": {
+                "initial": 40,
+                "sweep": 480,
+                "probe": 475,
+                "pair_endpoints": 400,
+                "third": 75,
+                "total": 995
+              }
+            },
+            "drop": {
+              "clock": 1000,
+              "recorded_nfev": 994,
+              "best": 7316.73217941931,
+              "cost": {
+                "initial": 40,
+                "sweep": 480,
+                "probe": 474,
+                "pair_endpoints": 400,
+                "third": 74,
+                "total": 994
+              }
+            }
+          },
+          "drop_over_keep": 0.4760269228253996,
+          "keep_over_NQ": 2.1013416753028307,
+          "drop_over_NQ": 1.0002952114991766
+        },
+        {
+          "clock": 2000,
+          "arms": {
+            "NQ": {
+              "clock": 2000,
+              "recorded_nfev": 2000,
+              "best": 976.3576022471035,
+              "cost": {
+                "initial": 40,
+                "sweep": 1000,
+                "probe": 960,
+                "pair_endpoints": 960,
+                "third": 0,
+                "total": 2000
+              }
+            },
+            "JQ100": {
+              "clock": 2000,
+              "recorded_nfev": 1989,
+              "best": 1922.2766328365774,
+              "cost": {
+                "initial": 40,
+                "sweep": 960,
+                "probe": 989,
+                "pair_endpoints": 760,
+                "third": 229,
+                "total": 1989
+              }
+            },
+            "keep": {
+              "clock": 2000,
+              "recorded_nfev": 1989,
+              "best": 1922.2766328365774,
+              "cost": {
+                "initial": 40,
+                "sweep": 960,
+                "probe": 989,
+                "pair_endpoints": 760,
+                "third": 229,
+                "total": 1989
+              }
+            },
+            "drop": {
+              "clock": 2000,
+              "recorded_nfev": 1978,
+              "best": 645.8986857229971,
+              "cost": {
+                "initial": 40,
+                "sweep": 960,
+                "probe": 978,
+                "pair_endpoints": 760,
+                "third": 218,
+                "total": 1978
+              }
+            }
+          },
+          "drop_over_keep": 0.33600714626067507,
+          "keep_over_NQ": 1.9688243614966732,
+          "drop_over_NQ": 0.6615390551949929
+        },
+        {
+          "clock": 4000,
+          "arms": {
+            "NQ": {
+              "clock": 4000,
+              "recorded_nfev": 4000,
+              "best": 48.962436527780476,
+              "cost": {
+                "initial": 40,
+                "sweep": 2000,
+                "probe": 1960,
+                "pair_endpoints": 1960,
+                "third": 0,
+                "total": 4000
+              }
+            },
+            "JQ100": {
+              "clock": 4000,
+              "recorded_nfev": 3996,
+              "best": 129.83796498120466,
+              "cost": {
+                "initial": 40,
+                "sweep": 1960,
+                "probe": 1996,
+                "pair_endpoints": 1440,
+                "third": 556,
+                "total": 3996
+              }
+            },
+            "keep": {
+              "clock": 4000,
+              "recorded_nfev": 3996,
+              "best": 129.83796498120466,
+              "cost": {
+                "initial": 40,
+                "sweep": 1960,
+                "probe": 1996,
+                "pair_endpoints": 1440,
+                "third": 556,
+                "total": 3996
+              }
+            },
+            "drop": {
+              "clock": 4000,
+              "recorded_nfev": 3991,
+              "best": 78.02140069460019,
+              "cost": {
+                "initial": 40,
+                "sweep": 1960,
+                "probe": 1991,
+                "pair_endpoints": 1440,
+                "third": 551,
+                "total": 3991
+              }
+            }
+          },
+          "drop_over_keep": 0.6009136134095675,
+          "keep_over_NQ": 2.651787251386787,
+          "drop_over_NQ": 1.5934950592242594
+        },
+        {
+          "clock": 6000,
+          "arms": {
+            "NQ": {
+              "clock": 6000,
+              "recorded_nfev": 6000,
+              "best": 2.535878123936533,
+              "cost": {
+                "initial": 40,
+                "sweep": 2960,
+                "probe": 3000,
+                "pair_endpoints": 3000,
+                "third": 0,
+                "total": 6000
+              }
+            },
+            "JQ100": {
+              "clock": 6000,
+              "recorded_nfev": 5978,
+              "best": 35.092097592644976,
+              "cost": {
+                "initial": 40,
+                "sweep": 2960,
+                "probe": 2978,
+                "pair_endpoints": 2120,
+                "third": 858,
+                "total": 5978
+              }
+            },
+            "keep": {
+              "clock": 6000,
+              "recorded_nfev": 5978,
+              "best": 35.092097592644976,
+              "cost": {
+                "initial": 40,
+                "sweep": 2960,
+                "probe": 2978,
+                "pair_endpoints": 2120,
+                "third": 858,
+                "total": 5978
+              }
+            },
+            "drop": {
+              "clock": 6000,
+              "recorded_nfev": 5983,
+              "best": 7.8028197137677875,
+              "cost": {
+                "initial": 40,
+                "sweep": 2960,
+                "probe": 2983,
+                "pair_endpoints": 2120,
+                "third": 863,
+                "total": 5983
+              }
+            }
+          },
+          "drop_over_keep": 0.22235261637377796,
+          "keep_over_NQ": 13.838242958678723,
+          "drop_over_NQ": 3.0769695278782243
+        },
+        {
+          "clock": 8000,
+          "arms": {
+            "NQ": {
+              "clock": 8000,
+              "recorded_nfev": 8000,
+              "best": 0.13289013898598143,
+              "cost": {
+                "initial": 40,
+                "sweep": 3960,
+                "probe": 4000,
+                "pair_endpoints": 4000,
+                "third": 0,
+                "total": 8000
+              }
+            },
+            "JQ100": {
+              "clock": 8000,
+              "recorded_nfev": 7993,
+              "best": 11.986645308180663,
+              "cost": {
+                "initial": 40,
+                "sweep": 3960,
+                "probe": 3993,
+                "pair_endpoints": 2840,
+                "third": 1153,
+                "total": 7993
+              }
+            },
+            "keep": {
+              "clock": 8000,
+              "recorded_nfev": 7993,
+              "best": 11.986645308180663,
+              "cost": {
+                "initial": 40,
+                "sweep": 3960,
+                "probe": 3993,
+                "pair_endpoints": 2840,
+                "third": 1153,
+                "total": 7993
+              }
+            },
+            "drop": {
+              "clock": 8000,
+              "recorded_nfev": 8000,
+              "best": 1.9838239825325579,
+              "cost": {
+                "initial": 40,
+                "sweep": 4000,
+                "probe": 3960,
+                "pair_endpoints": 2800,
+                "third": 1160,
+                "total": 8000
+              }
+            }
+          },
+          "drop_over_keep": 0.16550285184291466,
+          "keep_over_NQ": 90.19965965537844,
+          "drop_over_NQ": 14.928300908225426
+        },
+        {
+          "clock": 10000,
+          "arms": {
+            "NQ": {
+              "clock": 10000,
+              "recorded_nfev": 10000,
+              "best": 0.014819709839778603,
+              "cost": {
+                "initial": 40,
+                "sweep": 5000,
+                "probe": 4960,
+                "pair_endpoints": 4960,
+                "third": 0,
+                "total": 10000
+              }
+            },
+            "JQ100": {
+              "clock": 10000,
+              "recorded_nfev": 10000,
+              "best": 3.310171365134519,
+              "cost": {
+                "initial": 40,
+                "sweep": 4960,
+                "probe": 5000,
+                "pair_endpoints": 3560,
+                "third": 1440,
+                "total": 10000
+              }
+            },
+            "keep": {
+              "clock": 10000,
+              "recorded_nfev": 10000,
+              "best": 3.310171365134519,
+              "cost": {
+                "initial": 40,
+                "sweep": 4960,
+                "probe": 5000,
+                "pair_endpoints": 3560,
+                "third": 1440,
+                "total": 10000
+              }
+            },
+            "drop": {
+              "clock": 10000,
+              "recorded_nfev": 10000,
+              "best": 0.5223534403297592,
+              "cost": {
+                "initial": 40,
+                "sweep": 4990,
+                "probe": 4970,
+                "pair_endpoints": 3520,
+                "third": 1450,
+                "total": 10000
+              }
+            }
+          },
+          "drop_over_keep": 0.1578025373044014,
+          "keep_over_NQ": 223.36276490563247,
+          "drop_over_NQ": 35.247211041435314
+        }
+      ],
+      "propagation": {
+        "alignment": "Common logical round/boundary index only; states differ after intervention",
+        "same_state_alignment_claimed": false,
+        "candidate_coordinates": "Normalized unit-box coordinates, in original evaluation order",
+        "population": {
+          "status": "OBSERVED",
+          "keep": {
+            "stage": "pre",
+            "completed_round": 2,
+            "next_action_round": 3,
+            "nfev": 121,
+            "cost": {
+              "initial": 40,
+              "sweep": 40,
+              "probe": 41,
+              "pair_endpoints": 40,
+              "third": 1,
+              "scout": 0,
+              "total": 121
+            }
+          },
+          "drop": {
+            "stage": "pre",
+            "completed_round": 2,
+            "next_action_round": 3,
+            "nfev": 121,
+            "cost": {
+              "initial": 40,
+              "sweep": 40,
+              "probe": 41,
+              "pair_endpoints": 40,
+              "third": 1,
+              "scout": 0,
+              "total": 121
+            }
+          },
+          "difference": {
+            "left_shape": [
+              40,
+              10
+            ],
+            "right_shape": [
+              40,
+              10
+            ],
+            "shape_changed": false,
+            "different_elements": 10,
+            "different_rows": [
+              25
+            ],
+            "max_absolute_difference": 0.02405392580948698
+          }
+        },
+        "radii": {
+          "status": "OBSERVED",
+          "keep": {
+            "stage": "post",
+            "completed_round": 8,
+            "next_action_round": null,
+            "nfev": 379,
+            "cost": {
+              "initial": 40,
+              "sweep": 160,
+              "probe": 179,
+              "pair_endpoints": 160,
+              "third": 19,
+              "scout": 0,
+              "total": 379
+            }
+          },
+          "drop": {
+            "stage": "post",
+            "completed_round": 8,
+            "next_action_round": null,
+            "nfev": 381,
+            "cost": {
+              "initial": 40,
+              "sweep": 160,
+              "probe": 181,
+              "pair_endpoints": 160,
+              "third": 21,
+              "scout": 0,
+              "total": 381
+            }
+          },
+          "difference": {
+            "left_shape": [
+              40
+            ],
+            "right_shape": [
+              40
+            ],
+            "shape_changed": false,
+            "different_elements": 1,
+            "different_indices": [
+              0
+            ],
+            "max_absolute_difference": 0.3205767539769098
+          }
+        },
+        "action": {
+          "status": "OBSERVED",
+          "round": 16,
+          "keep": {
+            "stage": "post",
+            "completed_round": 16,
+            "next_action_round": null,
+            "nfev": 729,
+            "cost": {
+              "initial": 40,
+              "sweep": 320,
+              "probe": 369,
+              "pair_endpoints": 320,
+              "third": 49,
+              "scout": 0,
+              "total": 729
+            }
+          },
+          "drop": {
+            "stage": "post",
+            "completed_round": 16,
+            "next_action_round": null,
+            "nfev": 724,
+            "cost": {
+              "initial": 40,
+              "sweep": 360,
+              "probe": 324,
+              "pair_endpoints": 280,
+              "third": 44,
+              "scout": 0,
+              "total": 724
+            }
+          },
+          "same_state_alignment_claimed": false,
+          "keep_arm": "P",
+          "drop_arm": "S"
+        },
+        "candidate": {
+          "status": "OBSERVED",
+          "round": 3,
+          "keep": {
+            "stage": "post",
+            "completed_round": 3,
+            "next_action_round": null,
+            "nfev": 161,
+            "cost": {
+              "initial": 40,
+              "sweep": 80,
+              "probe": 41,
+              "pair_endpoints": 40,
+              "third": 1,
+              "scout": 0,
+              "total": 161
+            }
+          },
+          "drop": {
+            "stage": "post",
+            "completed_round": 3,
+            "next_action_round": null,
+            "nfev": 161,
+            "cost": {
+              "initial": 40,
+              "sweep": 80,
+              "probe": 41,
+              "pair_endpoints": 40,
+              "third": 1,
+              "scout": 0,
+              "total": 161
+            }
+          },
+          "same_state_alignment_claimed": false,
+          "arm": "S",
+          "difference": {
+            "left_shape": [
+              40,
+              10
+            ],
+            "right_shape": [
+              40,
+              10
+            ],
+            "shape_changed": false,
+            "different_elements": 28,
+            "different_rows": [
+              7,
+              23,
+              25
+            ],
+            "max_absolute_difference": 0.021115951213919515
+          }
+        },
+        "elite_and_donor_ids": {
+          "status": "OBSERVED",
+          "round": 7,
+          "keep": {
+            "stage": "post",
+            "completed_round": 7,
+            "next_action_round": null,
+            "nfev": 332,
+            "cost": {
+              "initial": 40,
+              "sweep": 160,
+              "probe": 132,
+              "pair_endpoints": 120,
+              "third": 12,
+              "scout": 0,
+              "total": 332
+            }
+          },
+          "drop": {
+            "stage": "post",
+            "completed_round": 7,
+            "next_action_round": null,
+            "nfev": 332,
+            "cost": {
+              "initial": 40,
+              "sweep": 160,
+              "probe": 132,
+              "pair_endpoints": 120,
+              "third": 12,
+              "scout": 0,
+              "total": 332
+            }
+          },
+          "same_state_alignment_claimed": false,
+          "fields": [
+            "elite",
+            "leaders",
+            "first",
+            "second"
+          ]
+        },
+        "individual_id_fields": {
+          "elite": {
+            "status": "OBSERVED",
+            "round": 7,
+            "keep": {
+              "stage": "post",
+              "completed_round": 7,
+              "next_action_round": null,
+              "nfev": 332,
+              "cost": {
+                "initial": 40,
+                "sweep": 160,
+                "probe": 132,
+                "pair_endpoints": 120,
+                "third": 12,
+                "scout": 0,
+                "total": 332
+              }
+            },
+            "drop": {
+              "stage": "post",
+              "completed_round": 7,
+              "next_action_round": null,
+              "nfev": 332,
+              "cost": {
+                "initial": 40,
+                "sweep": 160,
+                "probe": 132,
+                "pair_endpoints": 120,
+                "third": 12,
+                "scout": 0,
+                "total": 332
+              }
+            },
+            "same_state_alignment_claimed": false,
+            "keep_ids": [
+              15,
+              11,
+              33,
+              25,
+              28,
+              23,
+              32,
+              27
+            ],
+            "drop_ids": [
+              15,
+              11,
+              33,
+              25,
+              28,
+              32,
+              23,
+              27
+            ],
+            "difference": {
+              "left_shape": [
+                8
+              ],
+              "right_shape": [
+                8
+              ],
+              "shape_changed": false,
+              "different_elements": 2,
+              "different_indices": [
+                5,
+                6
+              ],
+              "max_absolute_difference": 9.0
+            },
+            "membership_changed": false
+          },
+          "leaders": {
+            "status": "OBSERVED",
+            "round": 7,
+            "keep": {
+              "stage": "post",
+              "completed_round": 7,
+              "next_action_round": null,
+              "nfev": 332,
+              "cost": {
+                "initial": 40,
+                "sweep": 160,
+                "probe": 132,
+                "pair_endpoints": 120,
+                "third": 12,
+                "scout": 0,
+                "total": 332
+              }
+            },
+            "drop": {
+              "stage": "post",
+              "completed_round": 7,
+              "next_action_round": null,
+              "nfev": 332,
+              "cost": {
+                "initial": 40,
+                "sweep": 160,
+                "probe": 132,
+                "pair_endpoints": 120,
+                "third": 12,
+                "scout": 0,
+                "total": 332
+              }
+            },
+            "same_state_alignment_claimed": false,
+            "keep_ids": [
+              23,
+              27,
+              15,
+              27,
+              25,
+              23,
+              28,
+              23,
+              11,
+              11,
+              32,
+              27,
+              23,
+              11,
+              23,
+              33,
+              28,
+              11,
+              25,
+              27,
+              28,
+              15,
+              32,
+              15,
+              27,
+              27,
+              25,
+              15,
+              33,
+              15,
+              15,
+              32,
+              11,
+              25,
+              27,
+              23,
+              23,
+              28,
+              28,
+              23
+            ],
+            "drop_ids": [
+              32,
+              27,
+              15,
+              27,
+              25,
+              32,
+              28,
+              32,
+              11,
+              11,
+              23,
+              27,
+              32,
+              11,
+              32,
+              33,
+              28,
+              11,
+              25,
+              27,
+              28,
+              15,
+              23,
+              15,
+              27,
+              27,
+              25,
+              15,
+              33,
+              15,
+              15,
+              23,
+              11,
+              25,
+              27,
+              32,
+              32,
+              28,
+              28,
+              32
+            ],
+            "difference": {
+              "left_shape": [
+                40
+              ],
+              "right_shape": [
+                40
+              ],
+              "shape_changed": false,
+              "different_elements": 11,
+              "different_indices": [
+                0,
+                5,
+                7,
+                10,
+                12,
+                14,
+                22,
+                31,
+                35,
+                36,
+                39
+              ],
+              "max_absolute_difference": 9.0
+            }
+          },
+          "first": {
+            "status": "OBSERVED",
+            "round": 7,
+            "keep": {
+              "stage": "post",
+              "completed_round": 7,
+              "next_action_round": null,
+              "nfev": 332,
+              "cost": {
+                "initial": 40,
+                "sweep": 160,
+                "probe": 132,
+                "pair_endpoints": 120,
+                "third": 12,
+                "scout": 0,
+                "total": 332
+              }
+            },
+            "drop": {
+              "stage": "post",
+              "completed_round": 7,
+              "next_action_round": null,
+              "nfev": 332,
+              "cost": {
+                "initial": 40,
+                "sweep": 160,
+                "probe": 132,
+                "pair_endpoints": 120,
+                "third": 12,
+                "scout": 0,
+                "total": 332
+              }
+            },
+            "same_state_alignment_claimed": false,
+            "keep_ids": [
+              16,
+              15,
+              11,
+              22,
+              3,
+              0,
+              26,
+              15,
+              0,
+              14,
+              3,
+              22,
+              33,
+              37,
+              32,
+              38,
+              8,
+              15,
+              17,
+              7,
+              38,
+              29,
+              3,
+              0,
+              34,
+              28,
+              4,
+              33,
+              6,
+              25,
+              39,
+              14,
+              19,
+              19,
+              8,
+              36,
+              26,
+              25,
+              4,
+              31
+            ],
+            "drop_ids": [
+              16,
+              15,
+              11,
+              22,
+              3,
+              0,
+              26,
+              15,
+              0,
+              14,
+              3,
+              22,
+              33,
+              37,
+              31,
+              38,
+              8,
+              15,
+              17,
+              7,
+              38,
+              29,
+              3,
+              0,
+              34,
+              28,
+              4,
+              33,
+              6,
+              25,
+              39,
+              14,
+              19,
+              19,
+              8,
+              36,
+              25,
+              25,
+              4,
+              30
+            ],
+            "difference": {
+              "left_shape": [
+                40
+              ],
+              "right_shape": [
+                40
+              ],
+              "shape_changed": false,
+              "different_elements": 3,
+              "different_indices": [
+                14,
+                36,
+                39
+              ],
+              "max_absolute_difference": 1.0
+            }
+          },
+          "second": {
+            "status": "OBSERVED",
+            "round": 7,
+            "keep": {
+              "stage": "post",
+              "completed_round": 7,
+              "next_action_round": null,
+              "nfev": 332,
+              "cost": {
+                "initial": 40,
+                "sweep": 160,
+                "probe": 132,
+                "pair_endpoints": 120,
+                "third": 12,
+                "scout": 0,
+                "total": 332
+              }
+            },
+            "drop": {
+              "stage": "post",
+              "completed_round": 7,
+              "next_action_round": null,
+              "nfev": 332,
+              "cost": {
+                "initial": 40,
+                "sweep": 160,
+                "probe": 132,
+                "pair_endpoints": 120,
+                "third": 12,
+                "scout": 0,
+                "total": 332
+              }
+            },
+            "same_state_alignment_claimed": false,
+            "keep_ids": [
+              36,
+              39,
+              3,
+              0,
+              16,
+              32,
+              35,
+              2,
+              31,
+              20,
+              6,
+              2,
+              27,
+              17,
+              18,
+              23,
+              26,
+              12,
+              11,
+              32,
+              7,
+              19,
+              37,
+              36,
+              14,
+              0,
+              18,
+              25,
+              14,
+              27,
+              34,
+              13,
+              1,
+              13,
+              5,
+              6,
+              38,
+              31,
+              5,
+              14
+            ],
+            "drop_ids": [
+              36,
+              39,
+              3,
+              0,
+              16,
+              31,
+              35,
+              2,
+              31,
+              20,
+              6,
+              2,
+              26,
+              17,
+              18,
+              23,
+              26,
+              12,
+              11,
+              32,
+              7,
+              19,
+              37,
+              36,
+              14,
+              0,
+              18,
+              25,
+              14,
+              27,
+              34,
+              13,
+              1,
+              13,
+              5,
+              6,
+              38,
+              31,
+              5,
+              14
+            ],
+            "difference": {
+              "left_shape": [
+                40
+              ],
+              "right_shape": [
+                40
+              ],
+              "shape_changed": false,
+              "different_elements": 2,
+              "different_indices": [
+                5,
+                12
+              ],
+              "max_absolute_difference": 1.0
+            }
+          }
+        },
+        "common_action_rounds": 211,
+        "interpretation": "Observed propagation order is descriptive; no additive or causal percentage decomposition"
+      },
+      "final_costs": {
+        "NQ": {
+          "initial": 40,
+          "sweep": 5000,
+          "probe": 4960,
+          "pair_endpoints": 4960,
+          "third": 0,
+          "scout": 0,
+          "total": 10000
+        },
+        "JQ100": {
+          "initial": 40,
+          "sweep": 4960,
+          "probe": 5000,
+          "pair_endpoints": 3560,
+          "third": 1440,
+          "scout": 0,
+          "total": 10000
+        },
+        "keep": {
+          "initial": 40,
+          "sweep": 4960,
+          "probe": 5000,
+          "pair_endpoints": 3560,
+          "third": 1440,
+          "scout": 0,
+          "total": 10000
+        },
+        "drop": {
+          "initial": 40,
+          "sweep": 4990,
+          "probe": 4970,
+          "pair_endpoints": 3520,
+          "third": 1450,
+          "scout": 0,
+          "total": 10000
+        }
+      },
+      "paid_points": {
+        "NQ": 10000,
+        "JQ100": 10000,
+        "keep": 9879,
+        "drop": 9879
+      }
+    },
+    {
+      "id": "reference",
+      "instance_seed": 880201,
+      "seed": 800203,
+      "fun": {
+        "NQ": 0.01438721280633575,
+        "JQ100": 0.008463288189276587,
+        "keep": 0.008463288189276587,
+        "drop": 1.3911698173278142
+      },
+      "rho": 164.376987531527,
+      "classification": "BLOCK_WORSENS",
+      "drop_over_NQ": 96.6948800965455,
+      "drop_near_or_better_than_NQ": false,
+      "keep_over_NQ": 0.5882507128803521,
+      "old_JQ_over_NQ": 0.5882507128803521,
+      "clocks": [
+        {
+          "clock": 500,
+          "arms": {
+            "NQ": {
+              "clock": 500,
+              "recorded_nfev": 480,
+              "best": 73809.25550579632,
+              "cost": {
+                "initial": 40,
+                "sweep": 200,
+                "probe": 240,
+                "pair_endpoints": 240,
+                "third": 0,
+                "total": 480
+              }
+            },
+            "JQ100": {
+              "clock": 500,
+              "recorded_nfev": 494,
+              "best": 47168.78265391452,
+              "cost": {
+                "initial": 40,
+                "sweep": 240,
+                "probe": 214,
+                "pair_endpoints": 200,
+                "third": 14,
+                "total": 494
+              }
+            },
+            "keep": {
+              "clock": 500,
+              "recorded_nfev": 494,
+              "best": 47168.78265391452,
+              "cost": {
+                "initial": 40,
+                "sweep": 240,
+                "probe": 214,
+                "pair_endpoints": 200,
+                "third": 14,
+                "total": 494
+              }
+            },
+            "drop": {
+              "clock": 500,
+              "recorded_nfev": 490,
+              "best": 52226.31030817992,
+              "cost": {
+                "initial": 40,
+                "sweep": 240,
+                "probe": 210,
+                "pair_endpoints": 200,
+                "third": 10,
+                "total": 490
+              }
+            }
+          },
+          "drop_over_keep": 1.1072219245379589,
+          "keep_over_NQ": 0.6390632493266417,
+          "drop_over_NQ": 0.7075848408209257
+        },
+        {
+          "clock": 1000,
+          "arms": {
+            "NQ": {
+              "clock": 1000,
+              "recorded_nfev": 1000,
+              "best": 13533.320192686631,
+              "cost": {
+                "initial": 40,
+                "sweep": 480,
+                "probe": 480,
+                "pair_endpoints": 480,
+                "third": 0,
+                "total": 1000
+              }
+            },
+            "JQ100": {
+              "clock": 1000,
+              "recorded_nfev": 978,
+              "best": 5439.948232247352,
+              "cost": {
+                "initial": 40,
+                "sweep": 480,
+                "probe": 458,
+                "pair_endpoints": 400,
+                "third": 58,
+                "total": 978
+              }
+            },
+            "keep": {
+              "clock": 1000,
+              "recorded_nfev": 978,
+              "best": 5439.948232247352,
+              "cost": {
+                "initial": 40,
+                "sweep": 480,
+                "probe": 458,
+                "pair_endpoints": 400,
+                "third": 58,
+                "total": 978
+              }
+            },
+            "drop": {
+              "clock": 1000,
+              "recorded_nfev": 969,
+              "best": 17465.670591276656,
+              "cost": {
+                "initial": 40,
+                "sweep": 480,
+                "probe": 449,
+                "pair_endpoints": 400,
+                "third": 49,
+                "total": 969
+              }
+            }
+          },
+          "drop_over_keep": 3.210631764424205,
+          "keep_over_NQ": 0.4019670084497879,
+          "drop_over_NQ": 1.290568045579462
+        },
+        {
+          "clock": 2000,
+          "arms": {
+            "NQ": {
+              "clock": 2000,
+              "recorded_nfev": 2000,
+              "best": 2761.978101778788,
+              "cost": {
+                "initial": 40,
+                "sweep": 1000,
+                "probe": 960,
+                "pair_endpoints": 960,
+                "third": 0,
+                "total": 2000
+              }
+            },
+            "JQ100": {
+              "clock": 2000,
+              "recorded_nfev": 1971,
+              "best": 923.8751936985077,
+              "cost": {
+                "initial": 40,
+                "sweep": 960,
+                "probe": 971,
+                "pair_endpoints": 760,
+                "third": 211,
+                "total": 1971
+              }
+            },
+            "keep": {
+              "clock": 2000,
+              "recorded_nfev": 1971,
+              "best": 923.8751936985077,
+              "cost": {
+                "initial": 40,
+                "sweep": 960,
+                "probe": 971,
+                "pair_endpoints": 760,
+                "third": 211,
+                "total": 1971
+              }
+            },
+            "drop": {
+              "clock": 2000,
+              "recorded_nfev": 1992,
+              "best": 2499.041137421863,
+              "cost": {
+                "initial": 40,
+                "sweep": 960,
+                "probe": 992,
+                "pair_endpoints": 800,
+                "third": 192,
+                "total": 1992
+              }
+            }
+          },
+          "drop_over_keep": 2.7049553386291962,
+          "keep_over_NQ": 0.3344976533678916,
+          "drop_over_NQ": 0.9048012132364168
+        },
+        {
+          "clock": 4000,
+          "arms": {
+            "NQ": {
+              "clock": 4000,
+              "recorded_nfev": 4000,
+              "best": 80.6884461889708,
+              "cost": {
+                "initial": 40,
+                "sweep": 1960,
+                "probe": 2000,
+                "pair_endpoints": 2000,
+                "third": 0,
+                "total": 4000
+              }
+            },
+            "JQ100": {
+              "clock": 4000,
+              "recorded_nfev": 3985,
+              "best": 22.19173845517137,
+              "cost": {
+                "initial": 40,
+                "sweep": 1960,
+                "probe": 1985,
+                "pair_endpoints": 1440,
+                "third": 545,
+                "total": 3985
+              }
+            },
+            "keep": {
+              "clock": 4000,
+              "recorded_nfev": 3985,
+              "best": 22.19173845517137,
+              "cost": {
+                "initial": 40,
+                "sweep": 1960,
+                "probe": 1985,
+                "pair_endpoints": 1440,
+                "third": 545,
+                "total": 3985
+              }
+            },
+            "drop": {
+              "clock": 4000,
+              "recorded_nfev": 3995,
+              "best": 87.88494102671791,
+              "cost": {
+                "initial": 40,
+                "sweep": 1960,
+                "probe": 1995,
+                "pair_endpoints": 1480,
+                "third": 515,
+                "total": 3995
+              }
+            }
+          },
+          "drop_over_keep": 3.9602549031590177,
+          "keep_over_NQ": 0.27502993927035685,
+          "drop_over_NQ": 1.0891886655109577
+        },
+        {
+          "clock": 6000,
+          "arms": {
+            "NQ": {
+              "clock": 6000,
+              "recorded_nfev": 6000,
+              "best": 3.3137703080101706,
+              "cost": {
+                "initial": 40,
+                "sweep": 3000,
+                "probe": 2960,
+                "pair_endpoints": 2960,
+                "third": 0,
+                "total": 6000
+              }
+            },
+            "JQ100": {
+              "clock": 6000,
+              "recorded_nfev": 5993,
+              "best": 2.5654253488023278,
+              "cost": {
+                "initial": 40,
+                "sweep": 2960,
+                "probe": 2993,
+                "pair_endpoints": 2120,
+                "third": 873,
+                "total": 5993
+              }
+            },
+            "keep": {
+              "clock": 6000,
+              "recorded_nfev": 5993,
+              "best": 2.5654253488023278,
+              "cost": {
+                "initial": 40,
+                "sweep": 2960,
+                "probe": 2993,
+                "pair_endpoints": 2120,
+                "third": 873,
+                "total": 5993
+              }
+            },
+            "drop": {
+              "clock": 6000,
+              "recorded_nfev": 5990,
+              "best": 38.006957426186744,
+              "cost": {
+                "initial": 40,
+                "sweep": 2960,
+                "probe": 2990,
+                "pair_endpoints": 2160,
+                "third": 830,
+                "total": 5990
+              }
+            }
+          },
+          "drop_over_keep": 14.815070508255689,
+          "keep_over_NQ": 0.7741711435464644,
+          "drop_over_NQ": 11.469400077097808
+        },
+        {
+          "clock": 8000,
+          "arms": {
+            "NQ": {
+              "clock": 8000,
+              "recorded_nfev": 8000,
+              "best": 0.6505137087879288,
+              "cost": {
+                "initial": 40,
+                "sweep": 3960,
+                "probe": 4000,
+                "pair_endpoints": 4000,
+                "third": 0,
+                "total": 8000
+              }
+            },
+            "JQ100": {
+              "clock": 8000,
+              "recorded_nfev": 7969,
+              "best": 0.15812105406922122,
+              "cost": {
+                "initial": 40,
+                "sweep": 3960,
+                "probe": 3969,
+                "pair_endpoints": 2800,
+                "third": 1169,
+                "total": 7969
+              }
+            },
+            "keep": {
+              "clock": 8000,
+              "recorded_nfev": 7969,
+              "best": 0.15812105406922122,
+              "cost": {
+                "initial": 40,
+                "sweep": 3960,
+                "probe": 3969,
+                "pair_endpoints": 2800,
+                "third": 1169,
+                "total": 7969
+              }
+            },
+            "drop": {
+              "clock": 8000,
+              "recorded_nfev": 7980,
+              "best": 17.23133100114184,
+              "cost": {
+                "initial": 40,
+                "sweep": 3960,
+                "probe": 3980,
+                "pair_endpoints": 2840,
+                "third": 1140,
+                "total": 7980
+              }
+            }
+          },
+          "drop_over_keep": 108.97556370633882,
+          "keep_over_NQ": 0.2430710558961126,
+          "drop_over_NQ": 26.48880533697386
+        },
+        {
+          "clock": 10000,
+          "arms": {
+            "NQ": {
+              "clock": 10000,
+              "recorded_nfev": 10000,
+              "best": 0.01438721280633575,
+              "cost": {
+                "initial": 40,
+                "sweep": 5000,
+                "probe": 4960,
+                "pair_endpoints": 4960,
+                "third": 0,
+                "total": 10000
+              }
+            },
+            "JQ100": {
+              "clock": 10000,
+              "recorded_nfev": 10000,
+              "best": 0.008463288189276587,
+              "cost": {
+                "initial": 40,
+                "sweep": 4960,
+                "probe": 5000,
+                "pair_endpoints": 3520,
+                "third": 1480,
+                "total": 10000
+              }
+            },
+            "keep": {
+              "clock": 10000,
+              "recorded_nfev": 10000,
+              "best": 0.008463288189276587,
+              "cost": {
+                "initial": 40,
+                "sweep": 4960,
+                "probe": 5000,
+                "pair_endpoints": 3520,
+                "third": 1480,
+                "total": 10000
+              }
+            },
+            "drop": {
+              "clock": 10000,
+              "recorded_nfev": 10000,
+              "best": 1.3911698173278142,
+              "cost": {
+                "initial": 40,
+                "sweep": 4961,
+                "probe": 4999,
+                "pair_endpoints": 3600,
+                "third": 1399,
+                "total": 10000
+              }
+            }
+          },
+          "drop_over_keep": 164.376987531527,
+          "keep_over_NQ": 0.5882507128803521,
+          "drop_over_NQ": 96.6948800965455
+        }
+      ],
+      "propagation": {
+        "alignment": "Common logical round/boundary index only; states differ after intervention",
+        "same_state_alignment_claimed": false,
+        "candidate_coordinates": "Normalized unit-box coordinates, in original evaluation order",
+        "population": {
+          "status": "OBSERVED",
+          "keep": {
+            "stage": "pre",
+            "completed_round": 2,
+            "next_action_round": 3,
+            "nfev": 121,
+            "cost": {
+              "initial": 40,
+              "sweep": 40,
+              "probe": 41,
+              "pair_endpoints": 40,
+              "third": 1,
+              "scout": 0,
+              "total": 121
+            }
+          },
+          "drop": {
+            "stage": "pre",
+            "completed_round": 2,
+            "next_action_round": 3,
+            "nfev": 121,
+            "cost": {
+              "initial": 40,
+              "sweep": 40,
+              "probe": 41,
+              "pair_endpoints": 40,
+              "third": 1,
+              "scout": 0,
+              "total": 121
+            }
+          },
+          "difference": {
+            "left_shape": [
+              40,
+              10
+            ],
+            "right_shape": [
+              40,
+              10
+            ],
+            "shape_changed": false,
+            "different_elements": 10,
+            "different_rows": [
+              21
+            ],
+            "max_absolute_difference": 0.0714286395026289
+          }
+        },
+        "radii": {
+          "status": "OBSERVED",
+          "keep": {
+            "stage": "post",
+            "completed_round": 4,
+            "next_action_round": null,
+            "nfev": 202,
+            "cost": {
+              "initial": 40,
+              "sweep": 80,
+              "probe": 82,
+              "pair_endpoints": 80,
+              "third": 2,
+              "scout": 0,
+              "total": 202
+            }
+          },
+          "drop": {
+            "stage": "post",
+            "completed_round": 4,
+            "next_action_round": null,
+            "nfev": 202,
+            "cost": {
+              "initial": 40,
+              "sweep": 80,
+              "probe": 82,
+              "pair_endpoints": 80,
+              "third": 2,
+              "scout": 0,
+              "total": 202
+            }
+          },
+          "difference": {
+            "left_shape": [
+              40
+            ],
+            "right_shape": [
+              40
+            ],
+            "shape_changed": false,
+            "different_elements": 1,
+            "different_indices": [
+              11
+            ],
+            "max_absolute_difference": 0.3205767539769098
+          }
+        },
+        "action": {
+          "status": "OBSERVED",
+          "round": 27,
+          "keep": {
+            "stage": "post",
+            "completed_round": 27,
+            "next_action_round": null,
+            "nfev": 1211,
+            "cost": {
+              "initial": 40,
+              "sweep": 600,
+              "probe": 571,
+              "pair_endpoints": 480,
+              "third": 91,
+              "scout": 0,
+              "total": 1211
+            }
+          },
+          "drop": {
+            "stage": "post",
+            "completed_round": 27,
+            "next_action_round": null,
+            "nfev": 1210,
+            "cost": {
+              "initial": 40,
+              "sweep": 560,
+              "probe": 610,
+              "pair_endpoints": 520,
+              "third": 90,
+              "scout": 0,
+              "total": 1210
+            }
+          },
+          "same_state_alignment_claimed": false,
+          "keep_arm": "S",
+          "drop_arm": "P"
+        },
+        "candidate": {
+          "status": "OBSERVED",
+          "round": 3,
+          "keep": {
+            "stage": "post",
+            "completed_round": 3,
+            "next_action_round": null,
+            "nfev": 161,
+            "cost": {
+              "initial": 40,
+              "sweep": 80,
+              "probe": 41,
+              "pair_endpoints": 40,
+              "third": 1,
+              "scout": 0,
+              "total": 161
+            }
+          },
+          "drop": {
+            "stage": "post",
+            "completed_round": 3,
+            "next_action_round": null,
+            "nfev": 161,
+            "cost": {
+              "initial": 40,
+              "sweep": 80,
+              "probe": 41,
+              "pair_endpoints": 40,
+              "third": 1,
+              "scout": 0,
+              "total": 161
+            }
+          },
+          "same_state_alignment_claimed": false,
+          "arm": "S",
+          "difference": {
+            "left_shape": [
+              40,
+              10
+            ],
+            "right_shape": [
+              40,
+              10
+            ],
+            "shape_changed": false,
+            "different_elements": 115,
+            "different_rows": [
+              0,
+              2,
+              8,
+              11,
+              16,
+              18,
+              21,
+              23,
+              29,
+              30,
+              31,
+              35,
+              39
+            ],
+            "max_absolute_difference": 0.6772525891025973
+          }
+        },
+        "elite_and_donor_ids": {
+          "status": "OBSERVED",
+          "round": 3,
+          "keep": {
+            "stage": "post",
+            "completed_round": 3,
+            "next_action_round": null,
+            "nfev": 161,
+            "cost": {
+              "initial": 40,
+              "sweep": 80,
+              "probe": 41,
+              "pair_endpoints": 40,
+              "third": 1,
+              "scout": 0,
+              "total": 161
+            }
+          },
+          "drop": {
+            "stage": "post",
+            "completed_round": 3,
+            "next_action_round": null,
+            "nfev": 161,
+            "cost": {
+              "initial": 40,
+              "sweep": 80,
+              "probe": 41,
+              "pair_endpoints": 40,
+              "third": 1,
+              "scout": 0,
+              "total": 161
+            }
+          },
+          "same_state_alignment_claimed": false,
+          "fields": [
+            "elite",
+            "leaders",
+            "first",
+            "second"
+          ]
+        },
+        "individual_id_fields": {
+          "elite": {
+            "status": "OBSERVED",
+            "round": 3,
+            "keep": {
+              "stage": "post",
+              "completed_round": 3,
+              "next_action_round": null,
+              "nfev": 161,
+              "cost": {
+                "initial": 40,
+                "sweep": 80,
+                "probe": 41,
+                "pair_endpoints": 40,
+                "third": 1,
+                "scout": 0,
+                "total": 161
+              }
+            },
+            "drop": {
+              "stage": "post",
+              "completed_round": 3,
+              "next_action_round": null,
+              "nfev": 161,
+              "cost": {
+                "initial": 40,
+                "sweep": 80,
+                "probe": 41,
+                "pair_endpoints": 40,
+                "third": 1,
+                "scout": 0,
+                "total": 161
+              }
+            },
+            "same_state_alignment_claimed": false,
+            "keep_ids": [
+              29,
+              24,
+              15,
+              32,
+              2,
+              39,
+              21,
+              10
+            ],
+            "drop_ids": [
+              29,
+              24,
+              15,
+              32,
+              2,
+              39,
+              10,
+              22
+            ],
+            "difference": {
+              "left_shape": [
+                8
+              ],
+              "right_shape": [
+                8
+              ],
+              "shape_changed": false,
+              "different_elements": 2,
+              "different_indices": [
+                6,
+                7
+              ],
+              "max_absolute_difference": 12.0
+            },
+            "membership_changed": true
+          },
+          "leaders": {
+            "status": "OBSERVED",
+            "round": 3,
+            "keep": {
+              "stage": "post",
+              "completed_round": 3,
+              "next_action_round": null,
+              "nfev": 161,
+              "cost": {
+                "initial": 40,
+                "sweep": 80,
+                "probe": 41,
+                "pair_endpoints": 40,
+                "third": 1,
+                "scout": 0,
+                "total": 161
+              }
+            },
+            "drop": {
+              "stage": "post",
+              "completed_round": 3,
+              "next_action_round": null,
+              "nfev": 161,
+              "cost": {
+                "initial": 40,
+                "sweep": 80,
+                "probe": 41,
+                "pair_endpoints": 40,
+                "third": 1,
+                "scout": 0,
+                "total": 161
+              }
+            },
+            "same_state_alignment_claimed": false,
+            "keep_ids": [
+              10,
+              24,
+              21,
+              32,
+              2,
+              15,
+              15,
+              39,
+              10,
+              32,
+              32,
+              10,
+              29,
+              32,
+              39,
+              39,
+              10,
+              15,
+              21,
+              29,
+              32,
+              32,
+              15,
+              21,
+              39,
+              32,
+              24,
+              2,
+              15,
+              10,
+              10,
+              21,
+              2,
+              2,
+              15,
+              10,
+              2,
+              24,
+              32,
+              10
+            ],
+            "drop_ids": [
+              22,
+              24,
+              10,
+              32,
+              2,
+              15,
+              15,
+              39,
+              22,
+              32,
+              32,
+              22,
+              29,
+              32,
+              39,
+              39,
+              22,
+              15,
+              10,
+              29,
+              32,
+              32,
+              15,
+              10,
+              39,
+              32,
+              24,
+              2,
+              15,
+              22,
+              22,
+              10,
+              2,
+              2,
+              15,
+              22,
+              2,
+              24,
+              32,
+              22
+            ],
+            "difference": {
+              "left_shape": [
+                40
+              ],
+              "right_shape": [
+                40
+              ],
+              "shape_changed": false,
+              "different_elements": 12,
+              "different_indices": [
+                0,
+                2,
+                8,
+                11,
+                16,
+                18,
+                23,
+                29,
+                30,
+                31,
+                35,
+                39
+              ],
+              "max_absolute_difference": 12.0
+            }
+          },
+          "first": {
+            "status": "OBSERVED",
+            "round": 3,
+            "keep": {
+              "stage": "post",
+              "completed_round": 3,
+              "next_action_round": null,
+              "nfev": 161,
+              "cost": {
+                "initial": 40,
+                "sweep": 80,
+                "probe": 41,
+                "pair_endpoints": 40,
+                "third": 1,
+                "scout": 0,
+                "total": 161
+              }
+            },
+            "drop": {
+              "stage": "post",
+              "completed_round": 3,
+              "next_action_round": null,
+              "nfev": 161,
+              "cost": {
+                "initial": 40,
+                "sweep": 80,
+                "probe": 41,
+                "pair_endpoints": 40,
+                "third": 1,
+                "scout": 0,
+                "total": 161
+              }
+            },
+            "same_state_alignment_claimed": false,
+            "keep_ids": [
+              9,
+              12,
+              9,
+              16,
+              36,
+              39,
+              28,
+              5,
+              21,
+              28,
+              33,
+              39,
+              14,
+              18,
+              16,
+              33,
+              17,
+              27,
+              3,
+              16,
+              10,
+              25,
+              24,
+              7,
+              22,
+              28,
+              13,
+              3,
+              9,
+              5,
+              3,
+              28,
+              4,
+              10,
+              0,
+              29,
+              16,
+              7,
+              24,
+              28
+            ],
+            "drop_ids": [
+              9,
+              12,
+              9,
+              16,
+              36,
+              39,
+              28,
+              5,
+              20,
+              28,
+              33,
+              39,
+              14,
+              18,
+              16,
+              33,
+              15,
+              27,
+              3,
+              16,
+              10,
+              25,
+              24,
+              7,
+              22,
+              28,
+              13,
+              3,
+              9,
+              5,
+              3,
+              28,
+              4,
+              10,
+              0,
+              29,
+              16,
+              7,
+              24,
+              28
+            ],
+            "difference": {
+              "left_shape": [
+                40
+              ],
+              "right_shape": [
+                40
+              ],
+              "shape_changed": false,
+              "different_elements": 2,
+              "different_indices": [
+                8,
+                16
+              ],
+              "max_absolute_difference": 2.0
+            }
+          },
+          "second": {
+            "status": "OBSERVED",
+            "round": 3,
+            "keep": {
+              "stage": "post",
+              "completed_round": 3,
+              "next_action_round": null,
+              "nfev": 161,
+              "cost": {
+                "initial": 40,
+                "sweep": 80,
+                "probe": 41,
+                "pair_endpoints": 40,
+                "third": 1,
+                "scout": 0,
+                "total": 161
+              }
+            },
+            "drop": {
+              "stage": "post",
+              "completed_round": 3,
+              "next_action_round": null,
+              "nfev": 161,
+              "cost": {
+                "initial": 40,
+                "sweep": 80,
+                "probe": 41,
+                "pair_endpoints": 40,
+                "third": 1,
+                "scout": 0,
+                "total": 161
+              }
+            },
+            "same_state_alignment_claimed": false,
+            "keep_ids": [
+              24,
+              25,
+              25,
+              36,
+              14,
+              30,
+              29,
+              31,
+              33,
+              25,
+              23,
+              17,
+              34,
+              31,
+              1,
+              26,
+              26,
+              36,
+              6,
+              35,
+              36,
+              24,
+              36,
+              30,
+              20,
+              11,
+              23,
+              19,
+              11,
+              20,
+              25,
+              19,
+              35,
+              16,
+              28,
+              24,
+              10,
+              28,
+              22,
+              31
+            ],
+            "drop_ids": [
+              24,
+              25,
+              25,
+              36,
+              14,
+              30,
+              29,
+              31,
+              33,
+              25,
+              23,
+              16,
+              34,
+              31,
+              1,
+              26,
+              26,
+              36,
+              6,
+              35,
+              36,
+              24,
+              36,
+              30,
+              20,
+              11,
+              23,
+              19,
+              11,
+              19,
+              25,
+              20,
+              35,
+              16,
+              28,
+              24,
+              10,
+              28,
+              22,
+              31
+            ],
+            "difference": {
+              "left_shape": [
+                40
+              ],
+              "right_shape": [
+                40
+              ],
+              "shape_changed": false,
+              "different_elements": 3,
+              "different_indices": [
+                11,
+                29,
+                31
+              ],
+              "max_absolute_difference": 1.0
+            }
+          }
+        },
+        "common_action_rounds": 210,
+        "interpretation": "Observed propagation order is descriptive; no additive or causal percentage decomposition"
+      },
+      "final_costs": {
+        "NQ": {
+          "initial": 40,
+          "sweep": 5000,
+          "probe": 4960,
+          "pair_endpoints": 4960,
+          "third": 0,
+          "scout": 0,
+          "total": 10000
+        },
+        "JQ100": {
+          "initial": 40,
+          "sweep": 4960,
+          "probe": 5000,
+          "pair_endpoints": 3520,
+          "third": 1480,
+          "scout": 0,
+          "total": 10000
+        },
+        "keep": {
+          "initial": 40,
+          "sweep": 4960,
+          "probe": 5000,
+          "pair_endpoints": 3520,
+          "third": 1480,
+          "scout": 0,
+          "total": 10000
+        },
+        "drop": {
+          "initial": 40,
+          "sweep": 4961,
+          "probe": 4999,
+          "pair_endpoints": 3600,
+          "third": 1399,
+          "scout": 0,
+          "total": 10000
+        }
+      },
+      "paid_points": {
+        "NQ": 10000,
+        "JQ100": 10000,
+        "keep": 9879,
+        "drop": 9879
+      }
+    }
+  ],
+  "cross_case_interpretation": "CONTEXT_DEPENDENT_COUNTEREXAMPLE_TO_UNIVERSAL_SUPPRESSION",
+  "gates": {
+    "PRECHECK.json": {
+      "status": "PASS"
+    },
+    "GATE_CARRIERS.json": {
+      "status": "PASS"
+    },
+    "KEEP_GATE.json": {
+      "status": "PASS"
+    },
+    "INTERVENTION_GATE.json": {
+      "status": "PASS"
+    },
+    "VERIFY_R1.json": {
+      "status": "PASS"
+    }
+  },
+  "new_objective_calls_for_analysis": 0,
+  "independent_confirmation": false,
+  "new_strategy_qualified": false,
+  "default_changed": false,
+  "interpretation": "Two preselected old cases; total downstream path effect of one commit suppression; no causal percentages"
+}

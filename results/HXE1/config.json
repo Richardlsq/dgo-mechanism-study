@@ -1,0 +1,6873 @@
+{
+  "identity": "HXE1",
+  "jobs": [
+    {
+      "id": "d20_rot_e6_i2_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e3_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800101_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e6_i2_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20801102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i2_s21800103_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20811102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800101_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e6_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i3_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20811103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_e3_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800102_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i3_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20814103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i1_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20801101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i1_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20803101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e3_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_e3_i1_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20810101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e6_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i1_s21800102_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20800101,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e6_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e6_i1_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20811101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_e6_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i1_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20804101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800101_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800102_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i3_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20812103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i3_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20803103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800102_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_e3_i2_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20810102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i3_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20802103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_rosen_i3_s21800102.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i2_s21800103_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20812102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rosen_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800102_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e3_i2_s21800103_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20800102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e3_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i1_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20814101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_doublewell_i1_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i2_s21800101_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20813102,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i2_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800103_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_e3_i3_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20810103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_e3_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i1_s21800103_H10",
+      "method": "H10",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20813101,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_rastrigin_i1_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_e6_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i2_s21800102_H10",
+      "method": "H10",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20804102,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_doublewell_i2_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_e6_i3_s21800103_C",
+      "method": "C",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e6",
+        "kind": "ellipsoid",
+        "condition": 1000000.0,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20801103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_e6_i3_s21800103.npz"
+    },
+    {
+      "id": "d10_rot_doublewell_i3_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20804103,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_doublewell_i3_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800101_S0",
+      "method": "S0",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_e3_i3_s21800102_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_e3",
+        "kind": "ellipsoid",
+        "condition": 1000,
+        "target": 0.0001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20800103,
+      "seed": 21800102,
+      "input_file": "inputs/d10_rot_e3_i3_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i2_s21800103_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20802102,
+      "seed": 21800103,
+      "input_file": "inputs/d10_rot_rosen_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_doublewell_i2_s21800103_L",
+      "method": "L",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_doublewell",
+        "kind": "doublewell",
+        "condition": 1,
+        "target": 1e-06,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20814102,
+      "seed": 21800103,
+      "input_file": "inputs/d20_rot_doublewell_i2_s21800103.npz"
+    },
+    {
+      "id": "d20_rot_rosen_i1_s21800102_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20812101,
+      "seed": 21800102,
+      "input_file": "inputs/d20_rot_rosen_i1_s21800102.npz"
+    },
+    {
+      "id": "d10_rot_rastrigin_i2_s21800101_S0",
+      "method": "S0",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 2,
+      "instance_seed": 20803102,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rastrigin_i2_s21800101.npz"
+    },
+    {
+      "id": "d20_rot_rastrigin_i3_s21800101_C",
+      "method": "C",
+      "dimension": 20,
+      "budget": 20000,
+      "profile": {
+        "id": "rot_rastrigin",
+        "kind": "rastrigin",
+        "condition": 1,
+        "target": 0.01,
+        "d": 20,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 3,
+      "instance_seed": 20813103,
+      "seed": 21800101,
+      "input_file": "inputs/d20_rot_rastrigin_i3_s21800101.npz"
+    },
+    {
+      "id": "d10_rot_rosen_i1_s21800101_L",
+      "method": "L",
+      "dimension": 10,
+      "budget": 10000,
+      "profile": {
+        "id": "rot_rosen",
+        "kind": "rosen",
+        "condition": 1,
+        "target": 0.001,
+        "d": 10,
+        "rotated": true,
+        "init": "uniform"
+      },
+      "instance_block": 1,
+      "instance_seed": 20802101,
+      "seed": 21800101,
+      "input_file": "inputs/d10_rot_rosen_i1_s21800101.npz"
+    }
+  ],
+  "search_cap": 5400000,
+  "final_vector_cap": 360,
+  "independent_scalar_cap": 1440,
+  "full_cap": 5422000,
+  "primary": [
+    "rot_e3",
+    "rot_e6",
+    "rot_rosen"
+  ],
+  "controls": [
+    "rot_rastrigin",
+    "rot_doublewell"
+  ],
+  "methods": [
+    "S0",
+    "H10",
+    "L",
+    "C"
+  ],
+  "dimensions": [
+    10,
+    20
+  ],
+  "floor": 1e-12,
+  "ratio_threshold": 0.9,
+  "condition_limit": 1.25,
+  "paired_limit": 10,
+  "run_order_seed": 20809999
+}
